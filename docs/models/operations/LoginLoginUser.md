@@ -1,0 +1,62 @@
+# LoginLoginUser
+
+
+## Fields
+
+| Field                      | Type                       | Required                   | Description                |
+| -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| `address`                  | *string*                   | :heavy_check_mark:         | N/A                        |
+| `availableChars`           | *int*                      | :heavy_check_mark:         | N/A                        |
+| `availableCharsPrepaid`    | *int*                      | :heavy_check_mark:         | N/A                        |
+| `availableImages`          | *int*                      | :heavy_check_mark:         | N/A                        |
+| `availableImagesPrepaid`   | *int*                      | :heavy_check_mark:         | N/A                        |
+| `availableMinutes`         | *string*                   | :heavy_check_mark:         | N/A                        |
+| `availableMinutesPrepaid`  | *string*                   | :heavy_check_mark:         | N/A                        |
+| `availableWords`           | *int*                      | :heavy_check_mark:         | N/A                        |
+| `availableWordsPrepaid`    | *int*                      | :heavy_check_mark:         | N/A                        |
+| `balance`                  | *int*                      | :heavy_check_mark:         | N/A                        |
+| `city`                     | *string*                   | :heavy_check_mark:         | N/A                        |
+| `ckbox`                    | *string*                   | :heavy_check_mark:         | N/A                        |
+| `company`                  | *string*                   | :heavy_check_mark:         | N/A                        |
+| `country`                  | *string*                   | :heavy_check_mark:         | N/A                        |
+| `createdAt`                | *string*                   | :heavy_check_mark:         | N/A                        |
+| `defaultTempLanguage`      | *int*                      | :heavy_check_mark:         | N/A                        |
+| `defaultTone`              | *string*                   | :heavy_check_mark:         | N/A                        |
+| `defaultVoiceoverLanguage` | *string*                   | :heavy_check_mark:         | N/A                        |
+| `defaultVoiceoverVoice`    | *string*                   | :heavy_check_mark:         | N/A                        |
+| `email`                    | *string*                   | :heavy_check_mark:         | N/A                        |
+| `emailVerifiedAt`          | *string*                   | :heavy_check_mark:         | N/A                        |
+| `google2faEnabled`         | *int*                      | :heavy_check_mark:         | N/A                        |
+| `google2faSecret`          | *string*                   | :heavy_check_mark:         | N/A                        |
+| `group`                    | *string*                   | :heavy_check_mark:         | N/A                        |
+| `id`                       | *int*                      | :heavy_check_mark:         | N/A                        |
+| `jobRole`                  | *string*                   | :heavy_check_mark:         | N/A                        |
+| `lastSeen`                 | *string*                   | :heavy_check_mark:         | N/A                        |
+| `memberRole`               | *int*                      | :heavy_check_mark:         | N/A                        |
+| `name`                     | *string*                   | :heavy_check_mark:         | N/A                        |
+| `oauthId`                  | *string*                   | :heavy_check_mark:         | N/A                        |
+| `oauthType`                | *string*                   | :heavy_check_mark:         | N/A                        |
+| `parentId`                 | *int*                      | :heavy_check_mark:         | N/A                        |
+| `phoneNumber`              | *string*                   | :heavy_check_mark:         | N/A                        |
+| `planId`                   | *int*                      | :heavy_check_mark:         | N/A                        |
+| `planType`                 | *string*                   | :heavy_check_mark:         | N/A                        |
+| `postalCode`               | *string*                   | :heavy_check_mark:         | N/A                        |
+| `productId`                | *int*                      | :heavy_check_mark:         | N/A                        |
+| `profilePhotoPath`         | *string*                   | :heavy_check_mark:         | N/A                        |
+| `referralBankRequisites`   | *string*                   | :heavy_check_mark:         | N/A                        |
+| `referralId`               | *string*                   | :heavy_check_mark:         | N/A                        |
+| `referralPaymentMethod`    | *string*                   | :heavy_check_mark:         | N/A                        |
+| `referralPaypal`           | *string*                   | :heavy_check_mark:         | N/A                        |
+| `referredBy`               | *string*                   | :heavy_check_mark:         | N/A                        |
+| `status`                   | *string*                   | :heavy_check_mark:         | N/A                        |
+| `subdomain`                | *string*                   | :heavy_check_mark:         | N/A                        |
+| `subdomainToken`           | *string*                   | :heavy_check_mark:         | N/A                        |
+| `totalChars`               | *int*                      | :heavy_check_mark:         | N/A                        |
+| `totalImages`              | *int*                      | :heavy_check_mark:         | N/A                        |
+| `totalMinutes`             | *string*                   | :heavy_check_mark:         | N/A                        |
+| `totalWords`               | *int*                      | :heavy_check_mark:         | N/A                        |
+| `updatedAt`                | *string*                   | :heavy_check_mark:         | N/A                        |
+| `website`                  | *string*                   | :heavy_check_mark:         | N/A                        |
+| `workbook`                 | *string*                   | :heavy_check_mark:         | N/A                        |
+| `workbookFolderId`         | *int*                      | :heavy_check_mark:         | N/A                        |
+| `workbookId`               | *int*                      | :heavy_check_mark:         | N/A                        |
