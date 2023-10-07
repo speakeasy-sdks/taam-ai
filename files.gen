@@ -239,7 +239,6 @@ src/Models/Shared/Data5.php
 src/Models/Shared/Data2.php
 src/Models/Shared/Folder2.php
 src/Models/Shared/Data6.php
-src/Models/Shared/Datum1FoldersFolder.php
 src/Models/Shared/Datum1.php
 src/Models/Shared/Data10.php
 src/Models/Shared/Data9.php
@@ -461,7 +460,6 @@ docs/models/shared/Data5.md
 docs/models/shared/Data2.md
 docs/models/shared/Folder2.md
 docs/models/shared/Data6.md
-docs/models/shared/Datum1FoldersFolder.md
 docs/models/shared/Datum1.md
 docs/models/shared/Data10.md
 docs/models/shared/Data9.md

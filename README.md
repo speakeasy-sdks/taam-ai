@@ -7,9 +7,9 @@
 </div>
 
 <!-- Start SDK Installation -->
-# SDK Installation
+## SDK Installation
 
-## Composer
+### Composer
 
 ```bash
 composer require "taamai/taamai"
@@ -18,8 +18,6 @@ composer require "taamai/taamai"
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```php
 <?php
 
@@ -52,10 +50,10 @@ try {
 <!-- End SDK Example Usage -->
 
 <!-- Start SDK Available Operations -->
-# Available Resources and Operations
+## Available Resources and Operations
 
 
-## [addonFeatures](docs/sdks/addonfeatures/README.md)
+### [addonFeatures](docs/sdks/addonfeatures/README.md)
 
 * [generateCode](docs/sdks/addonfeatures/README.md#generatecode) - Generate Code
 * [generateimagefromAI](docs/sdks/addonfeatures/README.md#generateimagefromai) - Generate image from AI
@@ -63,7 +61,7 @@ try {
 * [savecodeinworkspace](docs/sdks/addonfeatures/README.md#savecodeinworkspace) - Save code in workspace
 * [savetranscript](docs/sdks/addonfeatures/README.md#savetranscript) - Save transcript
 
-## [custimTemplates](docs/sdks/custimtemplates/README.md)
+### [custimTemplates](docs/sdks/custimtemplates/README.md)
 
 * [createCustomTemplate](docs/sdks/custimtemplates/README.md#createcustomtemplate) - Create Custom Template
 * [customTemplategenerate](docs/sdks/custimtemplates/README.md#customtemplategenerate) - Custom Template generate
@@ -73,11 +71,11 @@ try {
 * [restoreCustomtemplate](docs/sdks/custimtemplates/README.md#restorecustomtemplate) - Restore Custom template
 * [trashedCustomTemplates](docs/sdks/custimtemplates/README.md#trashedcustomtemplates) - Trashed Custom Templates
 
-## [misc](docs/sdks/misc/README.md)
+### [misc](docs/sdks/misc/README.md)
 
 * [allCategories](docs/sdks/misc/README.md#allcategories) - All Categories
 
-## [product](docs/sdks/product/README.md)
+### [product](docs/sdks/product/README.md)
 
 * [createProduct](docs/sdks/product/README.md#createproduct) - Create Product
 * [deleteProduct](docs/sdks/product/README.md#deleteproduct) - Delete Product
@@ -87,7 +85,7 @@ try {
 * [userProductd](docs/sdks/product/README.md#userproductd) - User Productd
 * [parmenentdeleteProduct](docs/sdks/product/README.md#parmenentdeleteproduct) - parmenent delete Product
 
-## [promptTemplate](docs/sdks/prompttemplate/README.md)
+### [promptTemplate](docs/sdks/prompttemplate/README.md)
 
 * [addandremovefrombookmarkprompttemplate](docs/sdks/prompttemplate/README.md#addandremovefrombookmarkprompttemplate) - Add and remove from bookmark prompt template
 * [createPromptTemplate](docs/sdks/prompttemplate/README.md#createprompttemplate) - Create Prompt Template
@@ -99,7 +97,7 @@ try {
 * [deleteprmopttemplate](docs/sdks/prompttemplate/README.md#deleteprmopttemplate) - delete prmopt template
 * [prompttemplatelikeorremovefromlike](docs/sdks/prompttemplate/README.md#prompttemplatelikeorremovefromlike) - prompt template like or remove from like
 
-## [templates](docs/sdks/templates/README.md)
+### [templates](docs/sdks/templates/README.md)
 
 * [allTemplates](docs/sdks/templates/README.md#alltemplates) - All Templates
 * [favTemplates](docs/sdks/templates/README.md#favtemplates) - Fav Templates
@@ -108,7 +106,7 @@ try {
 * [templateDetail](docs/sdks/templates/README.md#templatedetail) - Template Detail
 * [templategroups](docs/sdks/templates/README.md#templategroups) - Template groups
 
-## [workbookAndFolders](docs/sdks/workbookandfolders/README.md)
+### [workbookAndFolders](docs/sdks/workbookandfolders/README.md)
 
 * [addandremovefromfavDocument](docs/sdks/workbookandfolders/README.md#addandremovefromfavdocument) - Add and remove from fav Document
 * [contentsinworkbook](docs/sdks/workbookandfolders/README.md#contentsinworkbook) - Contents in work book
@@ -138,12 +136,12 @@ try {
 * [workbookpolicies](docs/sdks/workbookandfolders/README.md#workbookpolicies) - workbook policies
 * [workbooktranscripts](docs/sdks/workbookandfolders/README.md#workbooktranscripts) - workbook transcripts
 
-## [auth](docs/sdks/auth/README.md)
+### [auth](docs/sdks/auth/README.md)
 
 * [register](docs/sdks/auth/README.md#register) - Register
 * [login](docs/sdks/auth/README.md#login) - login
 
-## [chatWithPdf](docs/sdks/chatwithpdf/README.md)
+### [chatWithPdf](docs/sdks/chatwithpdf/README.md)
 
 * [newRequest](docs/sdks/chatwithpdf/README.md#newrequest) - New Request
 * [sendandgetmsgtochatpdf](docs/sdks/chatwithpdf/README.md#sendandgetmsgtochatpdf) - Send and get msg to chat pdf
@@ -153,8 +151,6 @@ try {
 <!-- End SDK Available Operations -->
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 
