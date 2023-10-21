@@ -29,7 +29,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\AddandremovefrombookmarkprompttemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -76,7 +80,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\CreatePromptTemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -135,7 +143,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\GenerateprompttemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -191,7 +203,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\ParmanentDeletePrompttemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -238,7 +254,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\PromptTemplatesRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -286,7 +306,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\RestorePromptTemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -333,7 +357,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\TrashedPromptTemplatesRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -379,7 +407,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\DeleteprmopttemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -426,7 +458,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\PrompttemplatelikeorremovefromlikeRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {

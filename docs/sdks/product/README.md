@@ -27,7 +27,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\CreateProductRequestBody;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -79,7 +83,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\DeleteProductRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -126,7 +134,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\RestoreProductRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -173,7 +185,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\TrashedProductsRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -219,7 +235,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\UpdateProductRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -271,7 +291,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\UserProductdRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -317,7 +341,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\ParmenentdeleteProductRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {

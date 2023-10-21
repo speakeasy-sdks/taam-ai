@@ -26,7 +26,11 @@ require_once 'vendor/autoload.php';
 use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -62,7 +66,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\CustomTemplategenerateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -119,7 +127,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\CustomTemplatesRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -165,7 +177,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\DeleteCustomtemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -212,7 +228,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\FavCustomTemplatesRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -258,7 +278,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\RestoreCustomtemplateRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -305,7 +329,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\TrashedCustomTemplatesRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {

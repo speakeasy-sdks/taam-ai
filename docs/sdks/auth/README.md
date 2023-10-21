@@ -22,7 +22,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\RegisterRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -72,7 +76,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\LoginRequestBody;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {

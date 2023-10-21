@@ -25,7 +25,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\GenerateCodeRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -74,7 +78,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\GenerateimagefromAIRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -127,14 +135,18 @@ use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\GeneratespeechtotextRequestBody;
 use \taamai\taamai\Models\Operations\GeneratespeechtotextRequestBodyAudioFile;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
     $request = new GeneratespeechtotextRequestBody();
     $request->audioFile = new GeneratespeechtotextRequestBodyAudioFile();
-    $request->audioFile->audioFile = 'Dinar Bicycle';
-    $request->audioFile->content = ',3S}7YH8}T';
+    $request->audioFile->audioFile = 'string';
+    $request->audioFile->content = '\H(gC_iAf,';
     $request->document = 'new';
     $request->language = 'en';
     $request->task = 'transcribe';
@@ -181,7 +193,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\SavecodeinworkspaceRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -230,7 +246,11 @@ use \taamai\taamai\Taamai;
 use \taamai\taamai\Models\Shared\Security;
 use \taamai\taamai\Models\Operations\SavetranscriptRequest;
 
+$security = new Security();
+$security->bearer = '';
+
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {

@@ -7,11 +7,15 @@
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\GenerateCodeRequest;
+use taamai\taamai\Taamai;
+use taamai\taamai\Models\Shared\Security;
+use taamai\taamai\Models\Operations\GenerateCodeRequest;
+
+$security = new Security();
+$security->bearer = '';
 
 $sdk = Taamai::builder()
+    ->setSecurity($security)
     ->build();
 
 try {
@@ -29,5 +33,6 @@ try {
 } catch (Exception $e) {
     // handle exception
 }
+
 ```
 <!-- End SDK Example Usage -->
