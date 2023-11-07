@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace taamai\taamai\Models\Shared;
 
 
-class RolePivot
+class Pivot
 {
 	#[\JMS\Serializer\Annotation\SerializedName('model_id')]
     #[\JMS\Serializer\Annotation\Type('int')]

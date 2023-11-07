@@ -12,10 +12,10 @@ use \taamai\taamai\Utils\SpeakeasyMetadata;
 class UploadfileforchatpdfRequestBody
 {
 	#[SpeakeasyMetadata('multipartForm:file=true')]
-    public UploadfileforchatpdfRequestBodyFile $file;
+    public UploadfileforchatpdfFile $file;
     
 	public function __construct()
 	{
-		$this->file = new \taamai\taamai\Models\Operations\UploadfileforchatpdfRequestBodyFile();
+		$this->file = new \taamai\taamai\Models\Operations\UploadfileforchatpdfFile();
 	}
 }

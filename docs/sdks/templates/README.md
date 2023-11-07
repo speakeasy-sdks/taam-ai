@@ -1,5 +1,5 @@
 # Templates
-(*templates*)
+
 
 ### Available Operations
 
@@ -22,19 +22,19 @@ All Templates
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\AllTemplatesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new AllTemplatesRequest();
+    $request = new Operations\AllTemplatesRequest();
     $request->userId = 1;
 
     $response = $sdk->templates->allTemplates($request);
@@ -72,19 +72,19 @@ Fav Templates
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\FavTemplatesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new FavTemplatesRequest();
+    $request = new Operations\FavTemplatesRequest();
     $request->userId = 12;
 
     $response = $sdk->templates->favTemplates($request);
@@ -122,19 +122,19 @@ Generate Template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\GenerateTemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new GenerateTemplateRequest();
+    $request = new Operations\GenerateTemplateRequest();
     $request->creativity = 0.5;
     $request->description = 'tell me about code';
     $request->folderId = 1;
@@ -181,19 +181,19 @@ Process Template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\ProcessTemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new ProcessTemplateRequest();
+    $request = new Operations\ProcessTemplateRequest();
     $request->contentId = 286;
     $request->maxResults = 1;
     $request->maxWords = 100;
@@ -235,19 +235,19 @@ Template Detail
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\TemplateDetailRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new TemplateDetailRequest();
+    $request = new Operations\TemplateDetailRequest();
     $request->templateId = 1;
     $request->userId = 40;
 
@@ -286,13 +286,13 @@ Template groups
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 

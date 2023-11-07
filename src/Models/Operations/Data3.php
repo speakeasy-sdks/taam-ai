@@ -9,28 +9,19 @@ declare(strict_types=1);
 namespace taamai\taamai\Models\Operations;
 
 
-class WorkbookDetailWorkbookDetailliveData1
+class Data3
 {
 	#[\JMS\Serializer\Annotation\SerializedName('created_at')]
     #[\JMS\Serializer\Annotation\Type('string')]
     public string $createdAt;
     
-	#[\JMS\Serializer\Annotation\SerializedName('default')]
-    #[\JMS\Serializer\Annotation\Type('int')]
-    public int $default;
-    
-	#[\JMS\Serializer\Annotation\SerializedName('deleted_at')]
+	#[\JMS\Serializer\Annotation\SerializedName('description')]
     #[\JMS\Serializer\Annotation\Type('string')]
-    public string $deletedAt;
+    public string $description;
     
-    /**
-     * $folders
-     * 
-     * @var array<\taamai\taamai\Models\Shared\Folder2> $folders
-     */
-	#[\JMS\Serializer\Annotation\SerializedName('folders')]
-    #[\JMS\Serializer\Annotation\Type('array<taamai\taamai\Models\Shared\Folder2>')]
-    public array $folders;
+	#[\JMS\Serializer\Annotation\SerializedName('icon')]
+    #[\JMS\Serializer\Annotation\Type('string')]
+    public string $icon;
     
 	#[\JMS\Serializer\Annotation\SerializedName('id')]
     #[\JMS\Serializer\Annotation\Type('int')]
@@ -45,18 +36,22 @@ class WorkbookDetailWorkbookDetailliveData1
     public string $updatedAt;
     
 	#[\JMS\Serializer\Annotation\SerializedName('user_id')]
-    #[\JMS\Serializer\Annotation\Type('int')]
-    public int $userId;
+    #[\JMS\Serializer\Annotation\Type('string')]
+    public string $userId;
+    
+	#[\JMS\Serializer\Annotation\SerializedName('workbook_id')]
+    #[\JMS\Serializer\Annotation\Type('string')]
+    public string $workbookId;
     
 	public function __construct()
 	{
 		$this->createdAt = "";
-		$this->default = 0;
-		$this->deletedAt = "";
-		$this->folders = [];
+		$this->description = "";
+		$this->icon = "";
 		$this->id = 0;
 		$this->name = "";
 		$this->updatedAt = "";
-		$this->userId = 0;
+		$this->userId = "";
+		$this->workbookId = "";
 	}
 }

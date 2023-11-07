@@ -38,8 +38,8 @@ class LoginLogin
     public string $tokenType;
     
 	#[\JMS\Serializer\Annotation\SerializedName('user')]
-    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\LoginLoginUser')]
-    public LoginLoginUser $user;
+    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\User')]
+    public User $user;
     
 	public function __construct()
 	{
@@ -48,6 +48,6 @@ class LoginLogin
 		$this->message = "";
 		$this->status = false;
 		$this->tokenType = "";
-		$this->user = new \taamai\taamai\Models\Operations\LoginLoginUser();
+		$this->user = new \taamai\taamai\Models\Operations\User();
 	}
 }

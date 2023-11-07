@@ -21,23 +21,23 @@ class Taamai
 		'http://127.0.0.1:8000/api',
 	];
   	
-	public AddonFeatures $addonFeatures;
+	public WorkbookAndFolders $workbookAndFolders;
 	
 	public CustimTemplates $custimTemplates;
 	
+	public ChatWithPdf $chatWithPdf;
+	
 	public Misc $misc;
+	
+	public AddonFeatures $addonFeatures;
+	
+	public Auth $auth;
 	
 	public Product $product;
 	
 	public PromptTemplate $promptTemplate;
 	
 	public Templates $templates;
-	
-	public WorkbookAndFolders $workbookAndFolders;
-	
-	public Auth $auth;
-	
-	public ChatWithPdf $chatWithPdf;
 		
 	private SDKConfiguration $sdkConfiguration;
 
@@ -58,22 +58,22 @@ class Taamai
 	{
 		$this->sdkConfiguration = $sdkConfiguration;
 		
-		$this->addonFeatures = new AddonFeatures($this->sdkConfiguration);
+		$this->workbookAndFolders = new WorkbookAndFolders($this->sdkConfiguration);
 		
 		$this->custimTemplates = new CustimTemplates($this->sdkConfiguration);
 		
+		$this->chatWithPdf = new ChatWithPdf($this->sdkConfiguration);
+		
 		$this->misc = new Misc($this->sdkConfiguration);
+		
+		$this->addonFeatures = new AddonFeatures($this->sdkConfiguration);
+		
+		$this->auth = new Auth($this->sdkConfiguration);
 		
 		$this->product = new Product($this->sdkConfiguration);
 		
 		$this->promptTemplate = new PromptTemplate($this->sdkConfiguration);
 		
 		$this->templates = new Templates($this->sdkConfiguration);
-		
-		$this->workbookAndFolders = new WorkbookAndFolders($this->sdkConfiguration);
-		
-		$this->auth = new Auth($this->sdkConfiguration);
-		
-		$this->chatWithPdf = new ChatWithPdf($this->sdkConfiguration);
 	}
 }

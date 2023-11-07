@@ -28,8 +28,8 @@ class Role
     public string $name;
     
 	#[\JMS\Serializer\Annotation\SerializedName('pivot')]
-    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Shared\RolePivot')]
-    public RolePivot $pivot;
+    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Shared\Pivot')]
+    public Pivot $pivot;
     
 	#[\JMS\Serializer\Annotation\SerializedName('updated_at')]
     #[\JMS\Serializer\Annotation\Type('string')]
@@ -41,7 +41,7 @@ class Role
 		$this->guardName = "";
 		$this->id = 0;
 		$this->name = "";
-		$this->pivot = new \taamai\taamai\Models\Shared\RolePivot();
+		$this->pivot = new \taamai\taamai\Models\Shared\Pivot();
 		$this->updatedAt = "";
 	}
 }

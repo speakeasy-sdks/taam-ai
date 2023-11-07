@@ -22,8 +22,8 @@ class GenerateimagefromAIGenerateimagefromAI
     public int $current;
     
 	#[\JMS\Serializer\Annotation\SerializedName('data')]
-    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\GenerateimagefromAIGenerateimagefromAIData17')]
-    public GenerateimagefromAIGenerateimagefromAIData17 $data;
+    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\Data17')]
+    public Data17 $data;
     
 	#[\JMS\Serializer\Annotation\SerializedName('old')]
     #[\JMS\Serializer\Annotation\Type('string')]
@@ -36,7 +36,7 @@ class GenerateimagefromAIGenerateimagefromAI
 	public function __construct()
 	{
 		$this->current = 0;
-		$this->data = new \taamai\taamai\Models\Operations\GenerateimagefromAIGenerateimagefromAIData17();
+		$this->data = new \taamai\taamai\Models\Operations\Data17();
 		$this->old = "";
 		$this->status = "";
 	}

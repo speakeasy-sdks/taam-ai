@@ -9,17 +9,17 @@ declare(strict_types=1);
 namespace taamai\taamai\Models\Operations;
 
 use \taamai\taamai\Utils\SpeakeasyMetadata;
-class GeneratespeechtotextRequestBodyAudioFile
+class File
 {
-	#[SpeakeasyMetadata('multipartForm:name=audio_file')]
-    public string $audioFile;
-    
 	#[SpeakeasyMetadata('multipartForm:content=true')]
     public string $content;
     
+	#[SpeakeasyMetadata('multipartForm:name=file')]
+    public string $fileName;
+    
 	public function __construct()
 	{
-		$this->audioFile = "";
 		$this->content = "";
+		$this->fileName = "";
 	}
 }

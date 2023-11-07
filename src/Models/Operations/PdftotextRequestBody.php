@@ -12,10 +12,10 @@ use \taamai\taamai\Utils\SpeakeasyMetadata;
 class PdftotextRequestBody
 {
 	#[SpeakeasyMetadata('multipartForm:file=true')]
-    public PdftotextRequestBodyFile $file;
+    public PdftotextFile $file;
     
 	public function __construct()
 	{
-		$this->file = new \taamai\taamai\Models\Operations\PdftotextRequestBodyFile();
+		$this->file = new \taamai\taamai\Models\Operations\PdftotextFile();
 	}
 }

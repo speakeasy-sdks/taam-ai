@@ -22,8 +22,8 @@ class CreateCustomTemplateCreateCustomTemplate
     public string $code;
     
 	#[\JMS\Serializer\Annotation\SerializedName('data')]
-    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\CreateCustomTemplateCreateCustomTemplateData12')]
-    public CreateCustomTemplateCreateCustomTemplateData12 $data;
+    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\Data12')]
+    public Data12 $data;
     
 	#[\JMS\Serializer\Annotation\SerializedName('message')]
     #[\JMS\Serializer\Annotation\Type('string')]
@@ -36,7 +36,7 @@ class CreateCustomTemplateCreateCustomTemplate
 	public function __construct()
 	{
 		$this->code = "";
-		$this->data = new \taamai\taamai\Models\Operations\CreateCustomTemplateCreateCustomTemplateData12();
+		$this->data = new \taamai\taamai\Models\Operations\Data12();
 		$this->message = "";
 		$this->status = "";
 	}

@@ -1,5 +1,5 @@
 # CustimTemplates
-(*custimTemplates*)
+
 
 ### Available Operations
 
@@ -23,13 +23,13 @@ Create Custom Template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
@@ -62,19 +62,19 @@ Custom Template generate
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\CustomTemplategenerateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new CustomTemplategenerateRequest();
+    $request = new Operations\CustomTemplategenerateRequest();
     $request->creativity = 0.5;
     $request->description = 'code';
     $request->folderId = 1;
@@ -123,19 +123,19 @@ Custom Templates
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\CustomTemplatesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new CustomTemplatesRequest();
+    $request = new Operations\CustomTemplatesRequest();
     $request->userId = 40;
 
     $response = $sdk->custimTemplates->customTemplates($request);
@@ -173,19 +173,19 @@ Delete Custom template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\DeleteCustomtemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new DeleteCustomtemplateRequest();
+    $request = new Operations\DeleteCustomtemplateRequest();
     $request->templateId = 3;
     $request->userId = 1;
 
@@ -224,19 +224,19 @@ Fav Custom Templates
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\FavCustomTemplatesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new FavCustomTemplatesRequest();
+    $request = new Operations\FavCustomTemplatesRequest();
     $request->userId = 40;
 
     $response = $sdk->custimTemplates->favCustomTemplates($request);
@@ -274,19 +274,19 @@ Restore Custom template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\RestoreCustomtemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new RestoreCustomtemplateRequest();
+    $request = new Operations\RestoreCustomtemplateRequest();
     $request->templateId = 3;
     $request->userId = 1;
 
@@ -325,19 +325,19 @@ Trashed Custom Templates
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\TrashedCustomTemplatesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new TrashedCustomTemplatesRequest();
+    $request = new Operations\TrashedCustomTemplatesRequest();
     $request->userId = 1;
 
     $response = $sdk->custimTemplates->trashedCustomTemplates($request);

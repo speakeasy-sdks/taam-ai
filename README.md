@@ -24,27 +24,26 @@ composer require "taamai/taamai"
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use taamai\taamai\Taamai;
-use taamai\taamai\Models\Shared\Security;
-use taamai\taamai\Models\Operations\GenerateCodeRequest;
+use taamai\taamai;
+use taamai\taamai\Models\Shared;
+use taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new GenerateCodeRequest();
-    $request->document = 'new checking';
-    $request->instructions = 'generate a code to store image';
-    $request->language = 'php';
+    $request = new Operations\AddandremovefromfavDocumentRequest();
+    $request->id = 6;
+    $request->type = 'document';
     $request->userId = 1;
 
-    $response = $sdk->addonFeatures->generateCode($request);
+    $response = $sdk->workbookAndFolders->addandremovefromfavDocument($request);
 
-    if ($response->generateCode !== null) {
+    if ($response->addandremovefromfavDocument !== null) {
         // handle response
     }
 } catch (Exception $e) {
@@ -58,60 +57,7 @@ try {
 ## Available Resources and Operations
 
 
-### [addonFeatures](docs/sdks/addonfeatures/README.md)
-
-* [generateCode](docs/sdks/addonfeatures/README.md#generatecode) - Generate Code
-* [generateimagefromAI](docs/sdks/addonfeatures/README.md#generateimagefromai) - Generate image from AI
-* [generatespeechtotext](docs/sdks/addonfeatures/README.md#generatespeechtotext) - Generate speech to text
-* [savecodeinworkspace](docs/sdks/addonfeatures/README.md#savecodeinworkspace) - Save code in workspace
-* [savetranscript](docs/sdks/addonfeatures/README.md#savetranscript) - Save transcript
-
-### [custimTemplates](docs/sdks/custimtemplates/README.md)
-
-* [createCustomTemplate](docs/sdks/custimtemplates/README.md#createcustomtemplate) - Create Custom Template
-* [customTemplategenerate](docs/sdks/custimtemplates/README.md#customtemplategenerate) - Custom Template generate
-* [customTemplates](docs/sdks/custimtemplates/README.md#customtemplates) - Custom Templates
-* [deleteCustomtemplate](docs/sdks/custimtemplates/README.md#deletecustomtemplate) - Delete Custom template
-* [favCustomTemplates](docs/sdks/custimtemplates/README.md#favcustomtemplates) - Fav Custom Templates
-* [restoreCustomtemplate](docs/sdks/custimtemplates/README.md#restorecustomtemplate) - Restore Custom template
-* [trashedCustomTemplates](docs/sdks/custimtemplates/README.md#trashedcustomtemplates) - Trashed Custom Templates
-
-### [misc](docs/sdks/misc/README.md)
-
-* [allCategories](docs/sdks/misc/README.md#allcategories) - All Categories
-
-### [product](docs/sdks/product/README.md)
-
-* [createProduct](docs/sdks/product/README.md#createproduct) - Create Product
-* [deleteProduct](docs/sdks/product/README.md#deleteproduct) - Delete Product
-* [restoreProduct](docs/sdks/product/README.md#restoreproduct) - Restore Product
-* [trashedProducts](docs/sdks/product/README.md#trashedproducts) - Trashed Products
-* [updateProduct](docs/sdks/product/README.md#updateproduct) - Update Product
-* [userProductd](docs/sdks/product/README.md#userproductd) - User Productd
-* [parmenentdeleteProduct](docs/sdks/product/README.md#parmenentdeleteproduct) - parmenent delete Product
-
-### [promptTemplate](docs/sdks/prompttemplate/README.md)
-
-* [addandremovefrombookmarkprompttemplate](docs/sdks/prompttemplate/README.md#addandremovefrombookmarkprompttemplate) - Add and remove from bookmark prompt template
-* [createPromptTemplate](docs/sdks/prompttemplate/README.md#createprompttemplate) - Create Prompt Template
-* [generateprompttemplate](docs/sdks/prompttemplate/README.md#generateprompttemplate) - Generate prompt template
-* [parmanentDeletePrompttemplate](docs/sdks/prompttemplate/README.md#parmanentdeleteprompttemplate) - Parmanent Delete Prompt template
-* [promptTemplates](docs/sdks/prompttemplate/README.md#prompttemplates) - Prompt Templates
-* [restorePromptTemplate](docs/sdks/prompttemplate/README.md#restoreprompttemplate) - Restore Prompt Template
-* [trashedPromptTemplates](docs/sdks/prompttemplate/README.md#trashedprompttemplates) - Trashed Prompt Templates
-* [deleteprmopttemplate](docs/sdks/prompttemplate/README.md#deleteprmopttemplate) - delete prmopt template
-* [prompttemplatelikeorremovefromlike](docs/sdks/prompttemplate/README.md#prompttemplatelikeorremovefromlike) - prompt template like or remove from like
-
-### [templates](docs/sdks/templates/README.md)
-
-* [allTemplates](docs/sdks/templates/README.md#alltemplates) - All Templates
-* [favTemplates](docs/sdks/templates/README.md#favtemplates) - Fav Templates
-* [generateTemplate](docs/sdks/templates/README.md#generatetemplate) - Generate Template
-* [processTemplate](docs/sdks/templates/README.md#processtemplate) - Process Template
-* [templateDetail](docs/sdks/templates/README.md#templatedetail) - Template Detail
-* [templategroups](docs/sdks/templates/README.md#templategroups) - Template groups
-
-### [workbookAndFolders](docs/sdks/workbookandfolders/README.md)
+### [WorkbookAndFolders](docs/sdks/workbookandfolders/README.md)
 
 * [addandremovefromfavDocument](docs/sdks/workbookandfolders/README.md#addandremovefromfavdocument) - Add and remove from fav Document
 * [contentsinworkbook](docs/sdks/workbookandfolders/README.md#contentsinworkbook) - Contents in work book
@@ -141,18 +87,71 @@ try {
 * [workbookpolicies](docs/sdks/workbookandfolders/README.md#workbookpolicies) - workbook policies
 * [workbooktranscripts](docs/sdks/workbookandfolders/README.md#workbooktranscripts) - workbook transcripts
 
-### [auth](docs/sdks/auth/README.md)
+### [CustimTemplates](docs/sdks/custimtemplates/README.md)
 
-* [register](docs/sdks/auth/README.md#register) - Register
-* [login](docs/sdks/auth/README.md#login) - login
+* [createCustomTemplate](docs/sdks/custimtemplates/README.md#createcustomtemplate) - Create Custom Template
+* [customTemplategenerate](docs/sdks/custimtemplates/README.md#customtemplategenerate) - Custom Template generate
+* [customTemplates](docs/sdks/custimtemplates/README.md#customtemplates) - Custom Templates
+* [deleteCustomtemplate](docs/sdks/custimtemplates/README.md#deletecustomtemplate) - Delete Custom template
+* [favCustomTemplates](docs/sdks/custimtemplates/README.md#favcustomtemplates) - Fav Custom Templates
+* [restoreCustomtemplate](docs/sdks/custimtemplates/README.md#restorecustomtemplate) - Restore Custom template
+* [trashedCustomTemplates](docs/sdks/custimtemplates/README.md#trashedcustomtemplates) - Trashed Custom Templates
 
-### [chatWithPdf](docs/sdks/chatwithpdf/README.md)
+### [ChatWithPdf](docs/sdks/chatwithpdf/README.md)
 
 * [newRequest](docs/sdks/chatwithpdf/README.md#newrequest) - New Request
 * [sendandgetmsgtochatpdf](docs/sdks/chatwithpdf/README.md#sendandgetmsgtochatpdf) - Send and get msg to chat pdf
 * [fileupload](docs/sdks/chatwithpdf/README.md#fileupload) - file upload
 * [pdftotext](docs/sdks/chatwithpdf/README.md#pdftotext) - pdf to text
 * [uploadfileforchatpdf](docs/sdks/chatwithpdf/README.md#uploadfileforchatpdf) - upload file for chat pdf
+
+### [Misc](docs/sdks/misc/README.md)
+
+* [allCategories](docs/sdks/misc/README.md#allcategories) - All Categories
+
+### [AddonFeatures](docs/sdks/addonfeatures/README.md)
+
+* [generateCode](docs/sdks/addonfeatures/README.md#generatecode) - Generate Code
+* [generateimagefromAI](docs/sdks/addonfeatures/README.md#generateimagefromai) - Generate image from AI
+* [generatespeechtotext](docs/sdks/addonfeatures/README.md#generatespeechtotext) - Generate speech to text
+* [savecodeinworkspace](docs/sdks/addonfeatures/README.md#savecodeinworkspace) - Save code in workspace
+* [savetranscript](docs/sdks/addonfeatures/README.md#savetranscript) - Save transcript
+
+### [Auth](docs/sdks/auth/README.md)
+
+* [register](docs/sdks/auth/README.md#register) - Register
+* [login](docs/sdks/auth/README.md#login) - login
+
+### [Product](docs/sdks/product/README.md)
+
+* [createProduct](docs/sdks/product/README.md#createproduct) - Create Product
+* [deleteProduct](docs/sdks/product/README.md#deleteproduct) - Delete Product
+* [restoreProduct](docs/sdks/product/README.md#restoreproduct) - Restore Product
+* [trashedProducts](docs/sdks/product/README.md#trashedproducts) - Trashed Products
+* [updateProduct](docs/sdks/product/README.md#updateproduct) - Update Product
+* [userProductd](docs/sdks/product/README.md#userproductd) - User Productd
+* [parmenentdeleteProduct](docs/sdks/product/README.md#parmenentdeleteproduct) - parmenent delete Product
+
+### [PromptTemplate](docs/sdks/prompttemplate/README.md)
+
+* [addandremovefrombookmarkprompttemplate](docs/sdks/prompttemplate/README.md#addandremovefrombookmarkprompttemplate) - Add and remove from bookmark prompt template
+* [createPromptTemplate](docs/sdks/prompttemplate/README.md#createprompttemplate) - Create Prompt Template
+* [generateprompttemplate](docs/sdks/prompttemplate/README.md#generateprompttemplate) - Generate prompt template
+* [parmanentDeletePrompttemplate](docs/sdks/prompttemplate/README.md#parmanentdeleteprompttemplate) - Parmanent Delete Prompt template
+* [promptTemplates](docs/sdks/prompttemplate/README.md#prompttemplates) - Prompt Templates
+* [restorePromptTemplate](docs/sdks/prompttemplate/README.md#restoreprompttemplate) - Restore Prompt Template
+* [trashedPromptTemplates](docs/sdks/prompttemplate/README.md#trashedprompttemplates) - Trashed Prompt Templates
+* [deleteprmopttemplate](docs/sdks/prompttemplate/README.md#deleteprmopttemplate) - delete prmopt template
+* [prompttemplatelikeorremovefromlike](docs/sdks/prompttemplate/README.md#prompttemplatelikeorremovefromlike) - prompt template like or remove from like
+
+### [Templates](docs/sdks/templates/README.md)
+
+* [allTemplates](docs/sdks/templates/README.md#alltemplates) - All Templates
+* [favTemplates](docs/sdks/templates/README.md#favtemplates) - Fav Templates
+* [generateTemplate](docs/sdks/templates/README.md#generatetemplate) - Generate Template
+* [processTemplate](docs/sdks/templates/README.md#processtemplate) - Process Template
+* [templateDetail](docs/sdks/templates/README.md#templatedetail) - Template Detail
+* [templategroups](docs/sdks/templates/README.md#templategroups) - Template groups
 <!-- End SDK Available Operations -->
 
 <!-- Start Dev Containers -->

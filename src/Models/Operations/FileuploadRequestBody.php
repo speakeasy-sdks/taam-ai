@@ -12,10 +12,10 @@ use \taamai\taamai\Utils\SpeakeasyMetadata;
 class FileuploadRequestBody
 {
 	#[SpeakeasyMetadata('multipartForm:file=true')]
-    public FileuploadRequestBodyFile $file;
+    public File $file;
     
 	public function __construct()
 	{
-		$this->file = new \taamai\taamai\Models\Operations\FileuploadRequestBodyFile();
+		$this->file = new \taamai\taamai\Models\Operations\File();
 	}
 }

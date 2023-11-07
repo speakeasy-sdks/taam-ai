@@ -12,7 +12,7 @@ use \taamai\taamai\Utils\SpeakeasyMetadata;
 class GeneratespeechtotextRequestBody
 {
 	#[SpeakeasyMetadata('multipartForm:file=true')]
-    public GeneratespeechtotextRequestBodyAudioFile $audioFile;
+    public AudioFile $audioFile;
     
 	#[SpeakeasyMetadata('multipartForm:name=document')]
     public string $document;
@@ -34,7 +34,7 @@ class GeneratespeechtotextRequestBody
     
 	public function __construct()
 	{
-		$this->audioFile = new \taamai\taamai\Models\Operations\GeneratespeechtotextRequestBodyAudioFile();
+		$this->audioFile = new \taamai\taamai\Models\Operations\AudioFile();
 		$this->document = "";
 		$this->language = "";
 		$this->task = "";

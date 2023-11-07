@@ -30,14 +30,14 @@ class RegisterExamplewithdefaultplansubdomainandsubsctpion
     public bool $result;
     
 	#[\JMS\Serializer\Annotation\SerializedName('user')]
-    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\RegisterExamplewithdefaultplansubdomainandsubsctpionUser2')]
-    public RegisterExamplewithdefaultplansubdomainandsubsctpionUser2 $user;
+    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\User2')]
+    public User2 $user;
     
 	public function __construct()
 	{
 		$this->accessToken = "";
 		$this->message = "";
 		$this->result = false;
-		$this->user = new \taamai\taamai\Models\Operations\RegisterExamplewithdefaultplansubdomainandsubsctpionUser2();
+		$this->user = new \taamai\taamai\Models\Operations\User2();
 	}
 }

@@ -1,5 +1,5 @@
 # Misc
-(*misc*)
+
 
 ### Available Operations
 
@@ -17,19 +17,19 @@ All Categories
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\AllCategoriesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new AllCategoriesRequest();
+    $request = new Operations\AllCategoriesRequest();
     $request->userId = 40;
 
     $response = $sdk->misc->allCategories($request);

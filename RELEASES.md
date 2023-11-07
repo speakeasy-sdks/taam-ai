@@ -29,3 +29,13 @@ Based on:
 - [php v0.2.0] .
 ### Releases
 - [Composer v0.2.0] https://packagist.org/packages/taamai/taamai#v0.2.0 - .
+
+## 2023-11-07 00:25:42
+### Changes
+Based on:
+- OpenAPI Doc 1.0 
+- Speakeasy CLI 1.114.1 (2.181.1) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [php v0.3.0] .
+### Releases
+- [Composer v0.3.0] https://packagist.org/packages/taamai/taamai#v0.3.0 - .

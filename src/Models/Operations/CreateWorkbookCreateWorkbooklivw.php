@@ -18,8 +18,8 @@ namespace taamai\taamai\Models\Operations;
 class CreateWorkbookCreateWorkbooklivw
 {
 	#[\JMS\Serializer\Annotation\SerializedName('data')]
-    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\CreateWorkbookCreateWorkbooklivwData')]
-    public CreateWorkbookCreateWorkbooklivwData $data;
+    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\Data')]
+    public Data $data;
     
 	#[\JMS\Serializer\Annotation\SerializedName('message')]
     #[\JMS\Serializer\Annotation\Type('string')]
@@ -31,7 +31,7 @@ class CreateWorkbookCreateWorkbooklivw
     
 	public function __construct()
 	{
-		$this->data = new \taamai\taamai\Models\Operations\CreateWorkbookCreateWorkbooklivwData();
+		$this->data = new \taamai\taamai\Models\Operations\Data();
 		$this->message = "";
 		$this->status = "";
 	}

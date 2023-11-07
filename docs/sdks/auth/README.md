@@ -1,5 +1,5 @@
 # Auth
-(*auth*)
+
 
 ### Available Operations
 
@@ -18,19 +18,19 @@ Register
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\RegisterRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new RegisterRequest();
+    $request = new Operations\RegisterRequest();
     $request->country = 'pakistan';
     $request->email = 'sobanshahid47@gmail.com';
     $request->name = 'soban';
@@ -72,19 +72,19 @@ login
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\LoginRequestBody;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new LoginRequestBody();
+    $request = new Operations\LoginRequestBody();
     $request->email = 'sobanshahid47@gmail.com';
     $request->password = 'ali112233';
 

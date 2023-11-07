@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace taamai\taamai\Models\Operations;
 
 
-class LoginLoginUser
+class User
 {
 	#[\JMS\Serializer\Annotation\SerializedName('address')]
     #[\JMS\Serializer\Annotation\Type('string')]

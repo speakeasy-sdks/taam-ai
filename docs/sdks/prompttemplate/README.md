@@ -1,5 +1,5 @@
 # PromptTemplate
-(*promptTemplate*)
+
 
 ### Available Operations
 
@@ -25,19 +25,19 @@ Add and remove from bookmark prompt template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\AddandremovefrombookmarkprompttemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new AddandremovefrombookmarkprompttemplateRequest();
+    $request = new Operations\AddandremovefrombookmarkprompttemplateRequest();
     $request->templateId = 1;
     $request->userId = 1;
 
@@ -76,19 +76,19 @@ Create Prompt Template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\CreatePromptTemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new CreatePromptTemplateRequest();
+    $request = new Operations\CreatePromptTemplateRequest();
     $request->activate = 1;
     $request->category = 'text';
     $request->code0 = 'input-field-1';
@@ -139,19 +139,19 @@ Generate prompt template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\GenerateprompttemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new GenerateprompttemplateRequest();
+    $request = new Operations\GenerateprompttemplateRequest();
     $request->creativity = 0.5;
     $request->description = 'something new';
     $request->folderId = 1;
@@ -199,19 +199,19 @@ Parmanent Delete Prompt template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\ParmanentDeletePrompttemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new ParmanentDeletePrompttemplateRequest();
+    $request = new Operations\ParmanentDeletePrompttemplateRequest();
     $request->templateId = 3;
     $request->userId = 1;
 
@@ -250,19 +250,19 @@ Prompt Templates
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\PromptTemplatesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new PromptTemplatesRequest();
+    $request = new Operations\PromptTemplatesRequest();
     $request->cat = 'publc';
     $request->subCat = 'all';
     $request->userId = 1;
@@ -302,19 +302,19 @@ Restore Prompt Template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\RestorePromptTemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new RestorePromptTemplateRequest();
+    $request = new Operations\RestorePromptTemplateRequest();
     $request->templateId = 3;
     $request->userId = 1;
 
@@ -353,19 +353,19 @@ Trashed Prompt Templates
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\TrashedPromptTemplatesRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new TrashedPromptTemplatesRequest();
+    $request = new Operations\TrashedPromptTemplatesRequest();
     $request->userId = 1;
 
     $response = $sdk->promptTemplate->trashedPromptTemplates($request);
@@ -403,19 +403,19 @@ delete prmopt template
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\DeleteprmopttemplateRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new DeleteprmopttemplateRequest();
+    $request = new Operations\DeleteprmopttemplateRequest();
     $request->templateId = 3;
     $request->userId = 1;
 
@@ -454,19 +454,19 @@ prompt template like or remove from like
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\PrompttemplatelikeorremovefromlikeRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new PrompttemplatelikeorremovefromlikeRequest();
+    $request = new Operations\PrompttemplatelikeorremovefromlikeRequest();
     $request->templateId = 1;
     $request->userId = 1;
 

@@ -18,8 +18,8 @@ namespace taamai\taamai\Models\Operations;
 class CreateFolderCreateFolderlive
 {
 	#[\JMS\Serializer\Annotation\SerializedName('data')]
-    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\CreateFolderCreateFolderliveData3')]
-    public CreateFolderCreateFolderliveData3 $data;
+    #[\JMS\Serializer\Annotation\Type('taamai\taamai\Models\Operations\Data3')]
+    public Data3 $data;
     
 	#[\JMS\Serializer\Annotation\SerializedName('message')]
     #[\JMS\Serializer\Annotation\Type('string')]
@@ -31,7 +31,7 @@ class CreateFolderCreateFolderlive
     
 	public function __construct()
 	{
-		$this->data = new \taamai\taamai\Models\Operations\CreateFolderCreateFolderliveData3();
+		$this->data = new \taamai\taamai\Models\Operations\Data3();
 		$this->message = "";
 		$this->status = "";
 	}

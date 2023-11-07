@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace taamai\taamai\Models\Operations;
 
 
-class RegisterExamplewithdefaultplansubdomainandsubsctpionUser2
+class User2
 {
 	#[\JMS\Serializer\Annotation\SerializedName('available_chars')]
     #[\JMS\Serializer\Annotation\Type('int')]

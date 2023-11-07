@@ -9,17 +9,17 @@ declare(strict_types=1);
 namespace taamai\taamai\Models\Operations;
 
 use \taamai\taamai\Utils\SpeakeasyMetadata;
-class PdftotextRequestBodyFile
+class PdftotextFile
 {
 	#[SpeakeasyMetadata('multipartForm:content=true')]
     public string $content;
     
 	#[SpeakeasyMetadata('multipartForm:name=file')]
-    public string $file;
+    public string $fileName;
     
 	public function __construct()
 	{
 		$this->content = "";
-		$this->file = "";
+		$this->fileName = "";
 	}
 }

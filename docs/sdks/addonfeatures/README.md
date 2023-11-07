@@ -1,5 +1,5 @@
 # AddonFeatures
-(*addonFeatures*)
+
 
 ### Available Operations
 
@@ -21,19 +21,19 @@ Generate Code
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\GenerateCodeRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new GenerateCodeRequest();
+    $request = new Operations\GenerateCodeRequest();
     $request->document = 'new checking';
     $request->instructions = 'generate a code to store image';
     $request->language = 'php';
@@ -74,19 +74,19 @@ Generate image from AI
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\GenerateimagefromAIRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new GenerateimagefromAIRequest();
+    $request = new Operations\GenerateimagefromAIRequest();
     $request->maxResults = 1;
     $request->name = 'sample checking';
     $request->resolution = '256x256';
@@ -130,23 +130,22 @@ Generate speech to text
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\GeneratespeechtotextRequestBody;
-use \taamai\taamai\Models\Operations\GeneratespeechtotextRequestBodyAudioFile;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new GeneratespeechtotextRequestBody();
-    $request->audioFile = new GeneratespeechtotextRequestBodyAudioFile();
-    $request->audioFile->audioFile = 'string';
-    $request->audioFile->content = '\H(gC_iAf,';
+    $request = new Operations\GeneratespeechtotextRequestBody();
+    $request->audioFile = new Operations\AudioFile();
+    $request->audioFile->content = '0xe91A8eB7A2';
+    $request->audioFile->fileName = 'parse.wav';
     $request->document = 'new';
     $request->language = 'en';
     $request->task = 'transcribe';
@@ -189,19 +188,19 @@ Save code in workspace
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\SavecodeinworkspaceRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new SavecodeinworkspaceRequest();
+    $request = new Operations\SavecodeinworkspaceRequest();
     $request->codeId = 32;
     $request->folderId = 1;
     $request->userId = 1;
@@ -242,19 +241,19 @@ Save transcript
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use \taamai\taamai\Taamai;
-use \taamai\taamai\Models\Shared\Security;
-use \taamai\taamai\Models\Operations\SavetranscriptRequest;
+use \taamai\taamai;
+use \taamai\taamai\Models\Shared;
+use \taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new SavetranscriptRequest();
+    $request = new Operations\SavetranscriptRequest();
     $request->text = 'Marhaban, ana al-mutahaddithi al-iftiradi min imza\'i al-jawda. Da\'ani ulqi al-tahiyyata ala jumhourik wa u\'arrifahom ala muntajatik abra wasilatin min akthar al-wasaili al-taswiqiya, tashwiqan wa mut\'a.",
         "status": "success';
     $request->title = 'New task';

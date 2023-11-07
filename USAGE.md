@@ -7,27 +7,26 @@
 declare(strict_types=1);
 require_once 'vendor/autoload.php';
 
-use taamai\taamai\Taamai;
-use taamai\taamai\Models\Shared\Security;
-use taamai\taamai\Models\Operations\GenerateCodeRequest;
+use taamai\taamai;
+use taamai\taamai\Models\Shared;
+use taamai\taamai\Models\Operations;
 
-$security = new Security();
+$security = new Shared\Security();
 $security->bearer = '';
 
-$sdk = Taamai::builder()
+$sdk = taamai\Taamai::builder()
     ->setSecurity($security)
     ->build();
 
 try {
-    $request = new GenerateCodeRequest();
-    $request->document = 'new checking';
-    $request->instructions = 'generate a code to store image';
-    $request->language = 'php';
+    $request = new Operations\AddandremovefromfavDocumentRequest();
+    $request->id = 6;
+    $request->type = 'document';
     $request->userId = 1;
 
-    $response = $sdk->addonFeatures->generateCode($request);
+    $response = $sdk->workbookAndFolders->addandremovefromfavDocument($request);
 
-    if ($response->generateCode !== null) {
+    if ($response->addandremovefromfavDocument !== null) {
         // handle response
     }
 } catch (Exception $e) {

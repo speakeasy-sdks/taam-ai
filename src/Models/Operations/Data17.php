@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace taamai\taamai\Models\Operations;
 
 
-class GenerateimagefromAIGenerateimagefromAIData17
+class Data17
 {
 	#[\JMS\Serializer\Annotation\SerializedName('created_at')]
     #[\JMS\Serializer\Annotation\Type('string')]
