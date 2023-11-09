@@ -74,13 +74,13 @@ try {
 
 | Parameter                                                                                                                            | Type                                                                                                                                 | Required                                                                                                                             | Description                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                                           | [\taamai\taamai\Models\Operations\AddandremovefromfavDocumentRequest](../../models/operations/AddandremovefromfavDocumentRequest.md) | :heavy_check_mark:                                                                                                                   | The request object to use for the request.                                                                                           |
+| `$request`                                                                                                                           | [\taamai\taamai\Models\Operations\AddandremovefromfavDocumentRequest](../../Models/Operations/AddandremovefromfavDocumentRequest.md) | :heavy_check_mark:                                                                                                                   | The request object to use for the request.                                                                                           |
 | `$serverURL`                                                                                                                         | *string*                                                                                                                             | :heavy_minus_sign:                                                                                                                   | An optional server URL to use.                                                                                                       |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\AddandremovefromfavDocumentResponse](../../models/operations/AddandremovefromfavDocumentResponse.md)**
+**[?\taamai\taamai\Models\Operations\AddandremovefromfavDocumentResponse](../../Models/Operations/AddandremovefromfavDocumentResponse.md)**
 
 
 ## contentsinworkbook
@@ -126,13 +126,13 @@ try {
 
 | Parameter                                                                                                          | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                         | [\taamai\taamai\Models\Operations\ContentsinworkbookRequest](../../models/operations/ContentsinworkbookRequest.md) | :heavy_check_mark:                                                                                                 | The request object to use for the request.                                                                         |
+| `$request`                                                                                                         | [\taamai\taamai\Models\Operations\ContentsinworkbookRequest](../../Models/Operations/ContentsinworkbookRequest.md) | :heavy_check_mark:                                                                                                 | The request object to use for the request.                                                                         |
 | `$serverURL`                                                                                                       | *string*                                                                                                           | :heavy_minus_sign:                                                                                                 | An optional server URL to use.                                                                                     |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\ContentsinworkbookResponse](../../models/operations/ContentsinworkbookResponse.md)**
+**[?\taamai\taamai\Models\Operations\ContentsinworkbookResponse](../../Models/Operations/ContentsinworkbookResponse.md)**
 
 
 ## createFolder
@@ -178,13 +178,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\CreateFolderRequest](../../models/operations/CreateFolderRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\CreateFolderRequest](../../Models/Operations/CreateFolderRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\CreateFolderResponse](../../models/operations/CreateFolderResponse.md)**
+**[?\taamai\taamai\Models\Operations\CreateFolderResponse](../../Models/Operations/CreateFolderResponse.md)**
 
 
 ## createWorkbook
@@ -229,13 +229,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\CreateWorkbookRequest](../../models/operations/CreateWorkbookRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\CreateWorkbookRequest](../../Models/Operations/CreateWorkbookRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\CreateWorkbookResponse](../../models/operations/CreateWorkbookResponse.md)**
+**[?\taamai\taamai\Models\Operations\CreateWorkbookResponse](../../Models/Operations/CreateWorkbookResponse.md)**
 
 
 ## deleteWorkspace
@@ -280,13 +280,13 @@ try {
 
 | Parameter                                                                                                    | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\DeleteWorkspaceRequest](../../models/operations/DeleteWorkspaceRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
+| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\DeleteWorkspaceRequest](../../Models/Operations/DeleteWorkspaceRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
 | `$serverURL`                                                                                                 | *string*                                                                                                     | :heavy_minus_sign:                                                                                           | An optional server URL to use.                                                                               |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\DeleteWorkspaceResponse](../../models/operations/DeleteWorkspaceResponse.md)**
+**[?\taamai\taamai\Models\Operations\DeleteWorkspaceResponse](../../Models/Operations/DeleteWorkspaceResponse.md)**
 
 
 ## deleteallkindofdocuments
@@ -331,7 +331,7 @@ try {
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\DeleteallkindofdocumentsResponse](../../models/operations/DeleteallkindofdocumentsResponse.md)**
+**[?\taamai\taamai\Models\Operations\DeleteallkindofdocumentsResponse](../../Models/Operations/DeleteallkindofdocumentsResponse.md)**
 
 
 ## joinworkbook
@@ -376,13 +376,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\JoinworkbookRequest](../../models/operations/JoinworkbookRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\JoinworkbookRequest](../../Models/Operations/JoinworkbookRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\JoinworkbookResponse](../../models/operations/JoinworkbookResponse.md)**
+**[?\taamai\taamai\Models\Operations\JoinworkbookResponse](../../Models/Operations/JoinworkbookResponse.md)**
 
 
 ## joinworkbookrequestr
@@ -428,13 +428,13 @@ try {
 
 | Parameter                                                                                                              | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\JoinworkbookrequestrRequest](../../models/operations/JoinworkbookrequestrRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
+| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\JoinworkbookrequestrRequest](../../Models/Operations/JoinworkbookrequestrRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
 | `$serverURL`                                                                                                           | *string*                                                                                                               | :heavy_minus_sign:                                                                                                     | An optional server URL to use.                                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\JoinworkbookrequestrResponse](../../models/operations/JoinworkbookrequestrResponse.md)**
+**[?\taamai\taamai\Models\Operations\JoinworkbookrequestrResponse](../../Models/Operations/JoinworkbookrequestrResponse.md)**
 
 
 ## permanentDeletefolder
@@ -479,13 +479,13 @@ try {
 
 | Parameter                                                                                                                | Type                                                                                                                     | Required                                                                                                                 | Description                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                               | [\taamai\taamai\Models\Operations\PermanentDeletefolderRequest](../../models/operations/PermanentDeletefolderRequest.md) | :heavy_check_mark:                                                                                                       | The request object to use for the request.                                                                               |
+| `$request`                                                                                                               | [\taamai\taamai\Models\Operations\PermanentDeletefolderRequest](../../Models/Operations/PermanentDeletefolderRequest.md) | :heavy_check_mark:                                                                                                       | The request object to use for the request.                                                                               |
 | `$serverURL`                                                                                                             | *string*                                                                                                                 | :heavy_minus_sign:                                                                                                       | An optional server URL to use.                                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\PermanentDeletefolderResponse](../../models/operations/PermanentDeletefolderResponse.md)**
+**[?\taamai\taamai\Models\Operations\PermanentDeletefolderResponse](../../Models/Operations/PermanentDeletefolderResponse.md)**
 
 
 ## permanentDeleteworkspace
@@ -524,7 +524,7 @@ try {
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\PermanentDeleteworkspaceResponse](../../models/operations/PermanentDeleteworkspaceResponse.md)**
+**[?\taamai\taamai\Models\Operations\PermanentDeleteworkspaceResponse](../../Models/Operations/PermanentDeleteworkspaceResponse.md)**
 
 
 ## rejectWorkbook
@@ -569,13 +569,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\RejectWorkbookRequest](../../models/operations/RejectWorkbookRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\RejectWorkbookRequest](../../Models/Operations/RejectWorkbookRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RejectWorkbookResponse](../../models/operations/RejectWorkbookResponse.md)**
+**[?\taamai\taamai\Models\Operations\RejectWorkbookResponse](../../Models/Operations/RejectWorkbookResponse.md)**
 
 
 ## restoreDocuemntofalltypeContentVoiceoverImagesTranscriptCode
@@ -621,13 +621,13 @@ try {
 
 | Parameter                                                                                                                                                                                              | Type                                                                                                                                                                                                   | Required                                                                                                                                                                                               | Description                                                                                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                                                                                                             | [\taamai\taamai\Models\Operations\RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeRequest](../../models/operations/RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeRequest.md) | :heavy_check_mark:                                                                                                                                                                                     | The request object to use for the request.                                                                                                                                                             |
+| `$request`                                                                                                                                                                                             | [\taamai\taamai\Models\Operations\RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeRequest](../../Models/Operations/RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeRequest.md) | :heavy_check_mark:                                                                                                                                                                                     | The request object to use for the request.                                                                                                                                                             |
 | `$serverURL`                                                                                                                                                                                           | *string*                                                                                                                                                                                               | :heavy_minus_sign:                                                                                                                                                                                     | An optional server URL to use.                                                                                                                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeResponse](../../models/operations/RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeResponse.md)**
+**[?\taamai\taamai\Models\Operations\RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeResponse](../../Models/Operations/RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeResponse.md)**
 
 
 ## restoreWorkspace
@@ -672,13 +672,13 @@ try {
 
 | Parameter                                                                                                      | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                     | [\taamai\taamai\Models\Operations\RestoreWorkspaceRequest](../../models/operations/RestoreWorkspaceRequest.md) | :heavy_check_mark:                                                                                             | The request object to use for the request.                                                                     |
+| `$request`                                                                                                     | [\taamai\taamai\Models\Operations\RestoreWorkspaceRequest](../../Models/Operations/RestoreWorkspaceRequest.md) | :heavy_check_mark:                                                                                             | The request object to use for the request.                                                                     |
 | `$serverURL`                                                                                                   | *string*                                                                                                       | :heavy_minus_sign:                                                                                             | An optional server URL to use.                                                                                 |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RestoreWorkspaceResponse](../../models/operations/RestoreWorkspaceResponse.md)**
+**[?\taamai\taamai\Models\Operations\RestoreWorkspaceResponse](../../Models/Operations/RestoreWorkspaceResponse.md)**
 
 
 ## setdefualtworkspace
@@ -723,13 +723,13 @@ try {
 
 | Parameter                                                                                                            | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
 | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\SetdefualtworkspaceRequest](../../models/operations/SetdefualtworkspaceRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
+| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\SetdefualtworkspaceRequest](../../Models/Operations/SetdefualtworkspaceRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
 | `$serverURL`                                                                                                         | *string*                                                                                                             | :heavy_minus_sign:                                                                                                   | An optional server URL to use.                                                                                       |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\SetdefualtworkspaceResponse](../../models/operations/SetdefualtworkspaceResponse.md)**
+**[?\taamai\taamai\Models\Operations\SetdefualtworkspaceResponse](../../Models/Operations/SetdefualtworkspaceResponse.md)**
 
 
 ## trashedfolders
@@ -774,13 +774,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\TrashedfoldersRequest](../../models/operations/TrashedfoldersRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\TrashedfoldersRequest](../../Models/Operations/TrashedfoldersRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\TrashedfoldersResponse](../../models/operations/TrashedfoldersResponse.md)**
+**[?\taamai\taamai\Models\Operations\TrashedfoldersResponse](../../Models/Operations/TrashedfoldersResponse.md)**
 
 
 ## trashedworkspaces
@@ -824,13 +824,13 @@ try {
 
 | Parameter                                                                                                        | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                       | [\taamai\taamai\Models\Operations\TrashedworkspacesRequest](../../models/operations/TrashedworkspacesRequest.md) | :heavy_check_mark:                                                                                               | The request object to use for the request.                                                                       |
+| `$request`                                                                                                       | [\taamai\taamai\Models\Operations\TrashedworkspacesRequest](../../Models/Operations/TrashedworkspacesRequest.md) | :heavy_check_mark:                                                                                               | The request object to use for the request.                                                                       |
 | `$serverURL`                                                                                                     | *string*                                                                                                         | :heavy_minus_sign:                                                                                               | An optional server URL to use.                                                                                   |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\TrashedworkspacesResponse](../../models/operations/TrashedworkspacesResponse.md)**
+**[?\taamai\taamai\Models\Operations\TrashedworkspacesResponse](../../Models/Operations/TrashedworkspacesResponse.md)**
 
 
 ## workbookDetail
@@ -875,13 +875,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\WorkbookDetailRequest](../../models/operations/WorkbookDetailRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\WorkbookDetailRequest](../../Models/Operations/WorkbookDetailRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\WorkbookDetailResponse](../../models/operations/WorkbookDetailResponse.md)**
+**[?\taamai\taamai\Models\Operations\WorkbookDetailResponse](../../Models/Operations/WorkbookDetailResponse.md)**
 
 
 ## workbookvoiceovers
@@ -928,13 +928,13 @@ try {
 
 | Parameter                                                                                                          | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                         | [\taamai\taamai\Models\Operations\WorkbookvoiceoversRequest](../../models/operations/WorkbookvoiceoversRequest.md) | :heavy_check_mark:                                                                                                 | The request object to use for the request.                                                                         |
+| `$request`                                                                                                         | [\taamai\taamai\Models\Operations\WorkbookvoiceoversRequest](../../Models/Operations/WorkbookvoiceoversRequest.md) | :heavy_check_mark:                                                                                                 | The request object to use for the request.                                                                         |
 | `$serverURL`                                                                                                       | *string*                                                                                                           | :heavy_minus_sign:                                                                                                 | An optional server URL to use.                                                                                     |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\WorkbookvoiceoversResponse](../../models/operations/WorkbookvoiceoversResponse.md)**
+**[?\taamai\taamai\Models\Operations\WorkbookvoiceoversResponse](../../Models/Operations/WorkbookvoiceoversResponse.md)**
 
 
 ## allworkbooks
@@ -978,13 +978,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\AllworkbooksRequest](../../models/operations/AllworkbooksRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\AllworkbooksRequest](../../Models/Operations/AllworkbooksRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\AllworkbooksResponse](../../models/operations/AllworkbooksResponse.md)**
+**[?\taamai\taamai\Models\Operations\AllworkbooksResponse](../../Models/Operations/AllworkbooksResponse.md)**
 
 
 ## deletefolder
@@ -1029,13 +1029,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\DeletefolderRequest](../../models/operations/DeletefolderRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\DeletefolderRequest](../../Models/Operations/DeletefolderRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\DeletefolderResponse](../../models/operations/DeletefolderResponse.md)**
+**[?\taamai\taamai\Models\Operations\DeletefolderResponse](../../Models/Operations/DeletefolderResponse.md)**
 
 
 ## permanentDeletedocument
@@ -1081,13 +1081,13 @@ try {
 
 | Parameter                                                                                                                    | Type                                                                                                                         | Required                                                                                                                     | Description                                                                                                                  |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                   | [\taamai\taamai\Models\Operations\PermanentDeletedocumentRequest](../../models/operations/PermanentDeletedocumentRequest.md) | :heavy_check_mark:                                                                                                           | The request object to use for the request.                                                                                   |
+| `$request`                                                                                                                   | [\taamai\taamai\Models\Operations\PermanentDeletedocumentRequest](../../Models/Operations/PermanentDeletedocumentRequest.md) | :heavy_check_mark:                                                                                                           | The request object to use for the request.                                                                                   |
 | `$serverURL`                                                                                                                 | *string*                                                                                                                     | :heavy_minus_sign:                                                                                                           | An optional server URL to use.                                                                                               |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\PermanentDeletedocumentResponse](../../models/operations/PermanentDeletedocumentResponse.md)**
+**[?\taamai\taamai\Models\Operations\PermanentDeletedocumentResponse](../../Models/Operations/PermanentDeletedocumentResponse.md)**
 
 
 ## restorefolder
@@ -1132,13 +1132,13 @@ try {
 
 | Parameter                                                                                                | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                               | [\taamai\taamai\Models\Operations\RestorefolderRequest](../../models/operations/RestorefolderRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
+| `$request`                                                                                               | [\taamai\taamai\Models\Operations\RestorefolderRequest](../../Models/Operations/RestorefolderRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
 | `$serverURL`                                                                                             | *string*                                                                                                 | :heavy_minus_sign:                                                                                       | An optional server URL to use.                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RestorefolderResponse](../../models/operations/RestorefolderResponse.md)**
+**[?\taamai\taamai\Models\Operations\RestorefolderResponse](../../Models/Operations/RestorefolderResponse.md)**
 
 
 ## userchats
@@ -1183,13 +1183,13 @@ try {
 
 | Parameter                                                                                        | Type                                                                                             | Required                                                                                         | Description                                                                                      |
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                       | [\taamai\taamai\Models\Operations\UserchatsRequest](../../models/operations/UserchatsRequest.md) | :heavy_check_mark:                                                                               | The request object to use for the request.                                                       |
+| `$request`                                                                                       | [\taamai\taamai\Models\Operations\UserchatsRequest](../../Models/Operations/UserchatsRequest.md) | :heavy_check_mark:                                                                               | The request object to use for the request.                                                       |
 | `$serverURL`                                                                                     | *string*                                                                                         | :heavy_minus_sign:                                                                               | An optional server URL to use.                                                                   |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\UserchatsResponse](../../models/operations/UserchatsResponse.md)**
+**[?\taamai\taamai\Models\Operations\UserchatsResponse](../../Models/Operations/UserchatsResponse.md)**
 
 
 ## workbookcodes
@@ -1236,13 +1236,13 @@ try {
 
 | Parameter                                                                                                | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                               | [\taamai\taamai\Models\Operations\WorkbookcodesRequest](../../models/operations/WorkbookcodesRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
+| `$request`                                                                                               | [\taamai\taamai\Models\Operations\WorkbookcodesRequest](../../Models/Operations/WorkbookcodesRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
 | `$serverURL`                                                                                             | *string*                                                                                                 | :heavy_minus_sign:                                                                                       | An optional server URL to use.                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\WorkbookcodesResponse](../../models/operations/WorkbookcodesResponse.md)**
+**[?\taamai\taamai\Models\Operations\WorkbookcodesResponse](../../Models/Operations/WorkbookcodesResponse.md)**
 
 
 ## workbookimages
@@ -1289,13 +1289,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\WorkbookimagesRequest](../../models/operations/WorkbookimagesRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\WorkbookimagesRequest](../../Models/Operations/WorkbookimagesRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\WorkbookimagesResponse](../../models/operations/WorkbookimagesResponse.md)**
+**[?\taamai\taamai\Models\Operations\WorkbookimagesResponse](../../Models/Operations/WorkbookimagesResponse.md)**
 
 
 ## workbookpolicies
@@ -1340,13 +1340,13 @@ try {
 
 | Parameter                                                                                                      | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                     | [\taamai\taamai\Models\Operations\WorkbookpoliciesRequest](../../models/operations/WorkbookpoliciesRequest.md) | :heavy_check_mark:                                                                                             | The request object to use for the request.                                                                     |
+| `$request`                                                                                                     | [\taamai\taamai\Models\Operations\WorkbookpoliciesRequest](../../Models/Operations/WorkbookpoliciesRequest.md) | :heavy_check_mark:                                                                                             | The request object to use for the request.                                                                     |
 | `$serverURL`                                                                                                   | *string*                                                                                                       | :heavy_minus_sign:                                                                                             | An optional server URL to use.                                                                                 |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\WorkbookpoliciesResponse](../../models/operations/WorkbookpoliciesResponse.md)**
+**[?\taamai\taamai\Models\Operations\WorkbookpoliciesResponse](../../Models/Operations/WorkbookpoliciesResponse.md)**
 
 
 ## workbooktranscripts
@@ -1393,11 +1393,11 @@ try {
 
 | Parameter                                                                                                            | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
 | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\WorkbooktranscriptsRequest](../../models/operations/WorkbooktranscriptsRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
+| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\WorkbooktranscriptsRequest](../../Models/Operations/WorkbooktranscriptsRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
 | `$serverURL`                                                                                                         | *string*                                                                                                             | :heavy_minus_sign:                                                                                                   | An optional server URL to use.                                                                                       |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\WorkbooktranscriptsResponse](../../models/operations/WorkbooktranscriptsResponse.md)**
+**[?\taamai\taamai\Models\Operations\WorkbooktranscriptsResponse](../../Models/Operations/WorkbooktranscriptsResponse.md)**
 

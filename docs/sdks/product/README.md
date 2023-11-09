@@ -58,13 +58,13 @@ try {
 
 | Parameter                                                                                                        | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                       | [\taamai\taamai\Models\Operations\CreateProductRequestBody](../../models/operations/CreateProductRequestBody.md) | :heavy_check_mark:                                                                                               | The request object to use for the request.                                                                       |
+| `$request`                                                                                                       | [\taamai\taamai\Models\Operations\CreateProductRequestBody](../../Models/Operations/CreateProductRequestBody.md) | :heavy_check_mark:                                                                                               | The request object to use for the request.                                                                       |
 | `$serverURL`                                                                                                     | *string*                                                                                                         | :heavy_minus_sign:                                                                                               | An optional server URL to use.                                                                                   |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\CreateProductResponse](../../models/operations/CreateProductResponse.md)**
+**[?\taamai\taamai\Models\Operations\CreateProductResponse](../../Models/Operations/CreateProductResponse.md)**
 
 
 ## deleteProduct
@@ -109,13 +109,13 @@ try {
 
 | Parameter                                                                                                | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                               | [\taamai\taamai\Models\Operations\DeleteProductRequest](../../models/operations/DeleteProductRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
+| `$request`                                                                                               | [\taamai\taamai\Models\Operations\DeleteProductRequest](../../Models/Operations/DeleteProductRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
 | `$serverURL`                                                                                             | *string*                                                                                                 | :heavy_minus_sign:                                                                                       | An optional server URL to use.                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\DeleteProductResponse](../../models/operations/DeleteProductResponse.md)**
+**[?\taamai\taamai\Models\Operations\DeleteProductResponse](../../Models/Operations/DeleteProductResponse.md)**
 
 
 ## restoreProduct
@@ -160,13 +160,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\RestoreProductRequest](../../models/operations/RestoreProductRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\RestoreProductRequest](../../Models/Operations/RestoreProductRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RestoreProductResponse](../../models/operations/RestoreProductResponse.md)**
+**[?\taamai\taamai\Models\Operations\RestoreProductResponse](../../Models/Operations/RestoreProductResponse.md)**
 
 
 ## trashedProducts
@@ -210,13 +210,13 @@ try {
 
 | Parameter                                                                                                    | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\TrashedProductsRequest](../../models/operations/TrashedProductsRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
+| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\TrashedProductsRequest](../../Models/Operations/TrashedProductsRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
 | `$serverURL`                                                                                                 | *string*                                                                                                     | :heavy_minus_sign:                                                                                           | An optional server URL to use.                                                                               |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\TrashedProductsResponse](../../models/operations/TrashedProductsResponse.md)**
+**[?\taamai\taamai\Models\Operations\TrashedProductsResponse](../../Models/Operations/TrashedProductsResponse.md)**
 
 
 ## updateProduct
@@ -266,13 +266,13 @@ try {
 
 | Parameter                                                                                                | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                               | [\taamai\taamai\Models\Operations\UpdateProductRequest](../../models/operations/UpdateProductRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
+| `$request`                                                                                               | [\taamai\taamai\Models\Operations\UpdateProductRequest](../../Models/Operations/UpdateProductRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
 | `$serverURL`                                                                                             | *string*                                                                                                 | :heavy_minus_sign:                                                                                       | An optional server URL to use.                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\UpdateProductResponse](../../models/operations/UpdateProductResponse.md)**
+**[?\taamai\taamai\Models\Operations\UpdateProductResponse](../../Models/Operations/UpdateProductResponse.md)**
 
 
 ## userProductd
@@ -316,13 +316,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\UserProductdRequest](../../models/operations/UserProductdRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\UserProductdRequest](../../Models/Operations/UserProductdRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\UserProductdResponse](../../models/operations/UserProductdResponse.md)**
+**[?\taamai\taamai\Models\Operations\UserProductdResponse](../../Models/Operations/UserProductdResponse.md)**
 
 
 ## parmenentdeleteProduct
@@ -367,11 +367,11 @@ try {
 
 | Parameter                                                                                                                  | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\ParmenentdeleteProductRequest](../../models/operations/ParmenentdeleteProductRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
+| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\ParmenentdeleteProductRequest](../../Models/Operations/ParmenentdeleteProductRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
 | `$serverURL`                                                                                                               | *string*                                                                                                                   | :heavy_minus_sign:                                                                                                         | An optional server URL to use.                                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\ParmenentdeleteProductResponse](../../models/operations/ParmenentdeleteProductResponse.md)**
+**[?\taamai\taamai\Models\Operations\ParmenentdeleteProductResponse](../../Models/Operations/ParmenentdeleteProductResponse.md)**
 

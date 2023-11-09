@@ -46,11 +46,11 @@ try {
 
 | Parameter                                                                                                | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                               | [\taamai\taamai\Models\Operations\AllCategoriesRequest](../../models/operations/AllCategoriesRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
+| `$request`                                                                                               | [\taamai\taamai\Models\Operations\AllCategoriesRequest](../../Models/Operations/AllCategoriesRequest.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
 | `$serverURL`                                                                                             | *string*                                                                                                 | :heavy_minus_sign:                                                                                       | An optional server URL to use.                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\AllCategoriesResponse](../../models/operations/AllCategoriesResponse.md)**
+**[?\taamai\taamai\Models\Operations\AllCategoriesResponse](../../Models/Operations/AllCategoriesResponse.md)**
 

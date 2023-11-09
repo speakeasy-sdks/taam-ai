@@ -47,7 +47,7 @@ try {
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\CreateCustomTemplateResponse](../../models/operations/CreateCustomTemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\CreateCustomTemplateResponse](../../Models/Operations/CreateCustomTemplateResponse.md)**
 
 
 ## customTemplategenerate
@@ -102,13 +102,13 @@ try {
 
 | Parameter                                                                                                                  | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\CustomTemplategenerateRequest](../../models/operations/CustomTemplategenerateRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
+| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\CustomTemplategenerateRequest](../../Models/Operations/CustomTemplategenerateRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
 | `$serverURL`                                                                                                               | *string*                                                                                                                   | :heavy_minus_sign:                                                                                                         | An optional server URL to use.                                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\CustomTemplategenerateResponse](../../models/operations/CustomTemplategenerateResponse.md)**
+**[?\taamai\taamai\Models\Operations\CustomTemplategenerateResponse](../../Models/Operations/CustomTemplategenerateResponse.md)**
 
 
 ## customTemplates
@@ -152,13 +152,13 @@ try {
 
 | Parameter                                                                                                    | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\CustomTemplatesRequest](../../models/operations/CustomTemplatesRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
+| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\CustomTemplatesRequest](../../Models/Operations/CustomTemplatesRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
 | `$serverURL`                                                                                                 | *string*                                                                                                     | :heavy_minus_sign:                                                                                           | An optional server URL to use.                                                                               |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\CustomTemplatesResponse](../../models/operations/CustomTemplatesResponse.md)**
+**[?\taamai\taamai\Models\Operations\CustomTemplatesResponse](../../Models/Operations/CustomTemplatesResponse.md)**
 
 
 ## deleteCustomtemplate
@@ -203,13 +203,13 @@ try {
 
 | Parameter                                                                                                              | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\DeleteCustomtemplateRequest](../../models/operations/DeleteCustomtemplateRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
+| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\DeleteCustomtemplateRequest](../../Models/Operations/DeleteCustomtemplateRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
 | `$serverURL`                                                                                                           | *string*                                                                                                               | :heavy_minus_sign:                                                                                                     | An optional server URL to use.                                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\DeleteCustomtemplateResponse](../../models/operations/DeleteCustomtemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\DeleteCustomtemplateResponse](../../Models/Operations/DeleteCustomtemplateResponse.md)**
 
 
 ## favCustomTemplates
@@ -253,13 +253,13 @@ try {
 
 | Parameter                                                                                                          | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                         | [\taamai\taamai\Models\Operations\FavCustomTemplatesRequest](../../models/operations/FavCustomTemplatesRequest.md) | :heavy_check_mark:                                                                                                 | The request object to use for the request.                                                                         |
+| `$request`                                                                                                         | [\taamai\taamai\Models\Operations\FavCustomTemplatesRequest](../../Models/Operations/FavCustomTemplatesRequest.md) | :heavy_check_mark:                                                                                                 | The request object to use for the request.                                                                         |
 | `$serverURL`                                                                                                       | *string*                                                                                                           | :heavy_minus_sign:                                                                                                 | An optional server URL to use.                                                                                     |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\FavCustomTemplatesResponse](../../models/operations/FavCustomTemplatesResponse.md)**
+**[?\taamai\taamai\Models\Operations\FavCustomTemplatesResponse](../../Models/Operations/FavCustomTemplatesResponse.md)**
 
 
 ## restoreCustomtemplate
@@ -304,13 +304,13 @@ try {
 
 | Parameter                                                                                                                | Type                                                                                                                     | Required                                                                                                                 | Description                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                               | [\taamai\taamai\Models\Operations\RestoreCustomtemplateRequest](../../models/operations/RestoreCustomtemplateRequest.md) | :heavy_check_mark:                                                                                                       | The request object to use for the request.                                                                               |
+| `$request`                                                                                                               | [\taamai\taamai\Models\Operations\RestoreCustomtemplateRequest](../../Models/Operations/RestoreCustomtemplateRequest.md) | :heavy_check_mark:                                                                                                       | The request object to use for the request.                                                                               |
 | `$serverURL`                                                                                                             | *string*                                                                                                                 | :heavy_minus_sign:                                                                                                       | An optional server URL to use.                                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RestoreCustomtemplateResponse](../../models/operations/RestoreCustomtemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\RestoreCustomtemplateResponse](../../Models/Operations/RestoreCustomtemplateResponse.md)**
 
 
 ## trashedCustomTemplates
@@ -354,11 +354,11 @@ try {
 
 | Parameter                                                                                                                  | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\TrashedCustomTemplatesRequest](../../models/operations/TrashedCustomTemplatesRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
+| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\TrashedCustomTemplatesRequest](../../Models/Operations/TrashedCustomTemplatesRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
 | `$serverURL`                                                                                                               | *string*                                                                                                                   | :heavy_minus_sign:                                                                                                         | An optional server URL to use.                                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\TrashedCustomTemplatesResponse](../../models/operations/TrashedCustomTemplatesResponse.md)**
+**[?\taamai\taamai\Models\Operations\TrashedCustomTemplatesResponse](../../Models/Operations/TrashedCustomTemplatesResponse.md)**
 

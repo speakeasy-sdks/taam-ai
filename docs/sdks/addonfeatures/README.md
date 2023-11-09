@@ -53,13 +53,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\GenerateCodeRequest](../../models/operations/GenerateCodeRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\GenerateCodeRequest](../../Models/Operations/GenerateCodeRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\GenerateCodeResponse](../../models/operations/GenerateCodeResponse.md)**
+**[?\taamai\taamai\Models\Operations\GenerateCodeResponse](../../Models/Operations/GenerateCodeResponse.md)**
 
 
 ## generateimagefromAI
@@ -109,13 +109,13 @@ try {
 
 | Parameter                                                                                                            | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
 | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\GenerateimagefromAIRequest](../../models/operations/GenerateimagefromAIRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
+| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\GenerateimagefromAIRequest](../../Models/Operations/GenerateimagefromAIRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
 | `$serverURL`                                                                                                         | *string*                                                                                                             | :heavy_minus_sign:                                                                                                   | An optional server URL to use.                                                                                       |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\GenerateimagefromAIResponse](../../models/operations/GenerateimagefromAIResponse.md)**
+**[?\taamai\taamai\Models\Operations\GenerateimagefromAIResponse](../../Models/Operations/GenerateimagefromAIResponse.md)**
 
 
 ## generatespeechtotext
@@ -167,13 +167,13 @@ try {
 
 | Parameter                                                                                                                      | Type                                                                                                                           | Required                                                                                                                       | Description                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                                     | [\taamai\taamai\Models\Operations\GeneratespeechtotextRequestBody](../../models/operations/GeneratespeechtotextRequestBody.md) | :heavy_check_mark:                                                                                                             | The request object to use for the request.                                                                                     |
+| `$request`                                                                                                                     | [\taamai\taamai\Models\Operations\GeneratespeechtotextRequestBody](../../Models/Operations/GeneratespeechtotextRequestBody.md) | :heavy_check_mark:                                                                                                             | The request object to use for the request.                                                                                     |
 | `$serverURL`                                                                                                                   | *string*                                                                                                                       | :heavy_minus_sign:                                                                                                             | An optional server URL to use.                                                                                                 |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\GeneratespeechtotextResponse](../../models/operations/GeneratespeechtotextResponse.md)**
+**[?\taamai\taamai\Models\Operations\GeneratespeechtotextResponse](../../Models/Operations/GeneratespeechtotextResponse.md)**
 
 
 ## savecodeinworkspace
@@ -220,13 +220,13 @@ try {
 
 | Parameter                                                                                                            | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
 | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\SavecodeinworkspaceRequest](../../models/operations/SavecodeinworkspaceRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
+| `$request`                                                                                                           | [\taamai\taamai\Models\Operations\SavecodeinworkspaceRequest](../../Models/Operations/SavecodeinworkspaceRequest.md) | :heavy_check_mark:                                                                                                   | The request object to use for the request.                                                                           |
 | `$serverURL`                                                                                                         | *string*                                                                                                             | :heavy_minus_sign:                                                                                                   | An optional server URL to use.                                                                                       |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\SavecodeinworkspaceResponse](../../models/operations/SavecodeinworkspaceResponse.md)**
+**[?\taamai\taamai\Models\Operations\SavecodeinworkspaceResponse](../../Models/Operations/SavecodeinworkspaceResponse.md)**
 
 
 ## savetranscript
@@ -276,11 +276,11 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\SavetranscriptRequest](../../models/operations/SavetranscriptRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\SavetranscriptRequest](../../Models/Operations/SavetranscriptRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\SavetranscriptResponse](../../models/operations/SavetranscriptResponse.md)**
+**[?\taamai\taamai\Models\Operations\SavetranscriptResponse](../../Models/Operations/SavetranscriptResponse.md)**
 

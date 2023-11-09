@@ -51,13 +51,13 @@ try {
 
 | Parameter                                                                                      | Type                                                                                           | Required                                                                                       | Description                                                                                    |
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| `$request`                                                                                     | [\taamai\taamai\Models\Operations\RegisterRequest](../../models/operations/RegisterRequest.md) | :heavy_check_mark:                                                                             | The request object to use for the request.                                                     |
+| `$request`                                                                                     | [\taamai\taamai\Models\Operations\RegisterRequest](../../Models/Operations/RegisterRequest.md) | :heavy_check_mark:                                                                             | The request object to use for the request.                                                     |
 | `$serverURL`                                                                                   | *string*                                                                                       | :heavy_minus_sign:                                                                             | An optional server URL to use.                                                                 |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RegisterResponse](../../models/operations/RegisterResponse.md)**
+**[?\taamai\taamai\Models\Operations\RegisterResponse](../../Models/Operations/RegisterResponse.md)**
 
 
 ## login
@@ -102,11 +102,11 @@ try {
 
 | Parameter                                                                                        | Type                                                                                             | Required                                                                                         | Description                                                                                      |
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                       | [\taamai\taamai\Models\Operations\LoginRequestBody](../../models/operations/LoginRequestBody.md) | :heavy_check_mark:                                                                               | The request object to use for the request.                                                       |
+| `$request`                                                                                       | [\taamai\taamai\Models\Operations\LoginRequestBody](../../Models/Operations/LoginRequestBody.md) | :heavy_check_mark:                                                                               | The request object to use for the request.                                                       |
 | `$serverURL`                                                                                     | *string*                                                                                         | :heavy_minus_sign:                                                                               | An optional server URL to use.                                                                   |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\LoginResponse](../../models/operations/LoginResponse.md)**
+**[?\taamai\taamai\Models\Operations\LoginResponse](../../Models/Operations/LoginResponse.md)**
 

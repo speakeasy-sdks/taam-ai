@@ -51,13 +51,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\AllTemplatesRequest](../../models/operations/AllTemplatesRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\AllTemplatesRequest](../../Models/Operations/AllTemplatesRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\AllTemplatesResponse](../../models/operations/AllTemplatesResponse.md)**
+**[?\taamai\taamai\Models\Operations\AllTemplatesResponse](../../Models/Operations/AllTemplatesResponse.md)**
 
 
 ## favTemplates
@@ -101,13 +101,13 @@ try {
 
 | Parameter                                                                                              | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                             | [\taamai\taamai\Models\Operations\FavTemplatesRequest](../../models/operations/FavTemplatesRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
+| `$request`                                                                                             | [\taamai\taamai\Models\Operations\FavTemplatesRequest](../../Models/Operations/FavTemplatesRequest.md) | :heavy_check_mark:                                                                                     | The request object to use for the request.                                                             |
 | `$serverURL`                                                                                           | *string*                                                                                               | :heavy_minus_sign:                                                                                     | An optional server URL to use.                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\FavTemplatesResponse](../../models/operations/FavTemplatesResponse.md)**
+**[?\taamai\taamai\Models\Operations\FavTemplatesResponse](../../Models/Operations/FavTemplatesResponse.md)**
 
 
 ## generateTemplate
@@ -160,13 +160,13 @@ try {
 
 | Parameter                                                                                                      | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                     | [\taamai\taamai\Models\Operations\GenerateTemplateRequest](../../models/operations/GenerateTemplateRequest.md) | :heavy_check_mark:                                                                                             | The request object to use for the request.                                                                     |
+| `$request`                                                                                                     | [\taamai\taamai\Models\Operations\GenerateTemplateRequest](../../Models/Operations/GenerateTemplateRequest.md) | :heavy_check_mark:                                                                                             | The request object to use for the request.                                                                     |
 | `$serverURL`                                                                                                   | *string*                                                                                                       | :heavy_minus_sign:                                                                                             | An optional server URL to use.                                                                                 |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\GenerateTemplateResponse](../../models/operations/GenerateTemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\GenerateTemplateResponse](../../Models/Operations/GenerateTemplateResponse.md)**
 
 
 ## processTemplate
@@ -214,13 +214,13 @@ try {
 
 | Parameter                                                                                                    | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\ProcessTemplateRequest](../../models/operations/ProcessTemplateRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
+| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\ProcessTemplateRequest](../../Models/Operations/ProcessTemplateRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
 | `$serverURL`                                                                                                 | *string*                                                                                                     | :heavy_minus_sign:                                                                                           | An optional server URL to use.                                                                               |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\ProcessTemplateResponse](../../models/operations/ProcessTemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\ProcessTemplateResponse](../../Models/Operations/ProcessTemplateResponse.md)**
 
 
 ## templateDetail
@@ -265,13 +265,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\TemplateDetailRequest](../../models/operations/TemplateDetailRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\TemplateDetailRequest](../../Models/Operations/TemplateDetailRequest.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\TemplateDetailResponse](../../models/operations/TemplateDetailResponse.md)**
+**[?\taamai\taamai\Models\Operations\TemplateDetailResponse](../../Models/Operations/TemplateDetailResponse.md)**
 
 
 ## templategroups
@@ -316,5 +316,5 @@ try {
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\TemplategroupsResponse](../../models/operations/TemplategroupsResponse.md)**
+**[?\taamai\taamai\Models\Operations\TemplategroupsResponse](../../Models/Operations/TemplategroupsResponse.md)**
 

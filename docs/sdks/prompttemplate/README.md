@@ -55,13 +55,13 @@ try {
 
 | Parameter                                                                                                                                                  | Type                                                                                                                                                       | Required                                                                                                                                                   | Description                                                                                                                                                |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                                                 | [\taamai\taamai\Models\Operations\AddandremovefrombookmarkprompttemplateRequest](../../models/operations/AddandremovefrombookmarkprompttemplateRequest.md) | :heavy_check_mark:                                                                                                                                         | The request object to use for the request.                                                                                                                 |
+| `$request`                                                                                                                                                 | [\taamai\taamai\Models\Operations\AddandremovefrombookmarkprompttemplateRequest](../../Models/Operations/AddandremovefrombookmarkprompttemplateRequest.md) | :heavy_check_mark:                                                                                                                                         | The request object to use for the request.                                                                                                                 |
 | `$serverURL`                                                                                                                                               | *string*                                                                                                                                                   | :heavy_minus_sign:                                                                                                                                         | An optional server URL to use.                                                                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\AddandremovefrombookmarkprompttemplateResponse](../../models/operations/AddandremovefrombookmarkprompttemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\AddandremovefrombookmarkprompttemplateResponse](../../Models/Operations/AddandremovefrombookmarkprompttemplateResponse.md)**
 
 
 ## createPromptTemplate
@@ -118,13 +118,13 @@ try {
 
 | Parameter                                                                                                              | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\CreatePromptTemplateRequest](../../models/operations/CreatePromptTemplateRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
+| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\CreatePromptTemplateRequest](../../Models/Operations/CreatePromptTemplateRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
 | `$serverURL`                                                                                                           | *string*                                                                                                               | :heavy_minus_sign:                                                                                                     | An optional server URL to use.                                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\CreatePromptTemplateResponse](../../models/operations/CreatePromptTemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\CreatePromptTemplateResponse](../../Models/Operations/CreatePromptTemplateResponse.md)**
 
 
 ## generateprompttemplate
@@ -178,13 +178,13 @@ try {
 
 | Parameter                                                                                                                  | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\GenerateprompttemplateRequest](../../models/operations/GenerateprompttemplateRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
+| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\GenerateprompttemplateRequest](../../Models/Operations/GenerateprompttemplateRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
 | `$serverURL`                                                                                                               | *string*                                                                                                                   | :heavy_minus_sign:                                                                                                         | An optional server URL to use.                                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\GenerateprompttemplateResponse](../../models/operations/GenerateprompttemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\GenerateprompttemplateResponse](../../Models/Operations/GenerateprompttemplateResponse.md)**
 
 
 ## parmanentDeletePrompttemplate
@@ -229,13 +229,13 @@ try {
 
 | Parameter                                                                                                                                | Type                                                                                                                                     | Required                                                                                                                                 | Description                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                               | [\taamai\taamai\Models\Operations\ParmanentDeletePrompttemplateRequest](../../models/operations/ParmanentDeletePrompttemplateRequest.md) | :heavy_check_mark:                                                                                                                       | The request object to use for the request.                                                                                               |
+| `$request`                                                                                                                               | [\taamai\taamai\Models\Operations\ParmanentDeletePrompttemplateRequest](../../Models/Operations/ParmanentDeletePrompttemplateRequest.md) | :heavy_check_mark:                                                                                                                       | The request object to use for the request.                                                                                               |
 | `$serverURL`                                                                                                                             | *string*                                                                                                                                 | :heavy_minus_sign:                                                                                                                       | An optional server URL to use.                                                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\ParmanentDeletePrompttemplateResponse](../../models/operations/ParmanentDeletePrompttemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\ParmanentDeletePrompttemplateResponse](../../Models/Operations/ParmanentDeletePrompttemplateResponse.md)**
 
 
 ## promptTemplates
@@ -281,13 +281,13 @@ try {
 
 | Parameter                                                                                                    | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\PromptTemplatesRequest](../../models/operations/PromptTemplatesRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
+| `$request`                                                                                                   | [\taamai\taamai\Models\Operations\PromptTemplatesRequest](../../Models/Operations/PromptTemplatesRequest.md) | :heavy_check_mark:                                                                                           | The request object to use for the request.                                                                   |
 | `$serverURL`                                                                                                 | *string*                                                                                                     | :heavy_minus_sign:                                                                                           | An optional server URL to use.                                                                               |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\PromptTemplatesResponse](../../models/operations/PromptTemplatesResponse.md)**
+**[?\taamai\taamai\Models\Operations\PromptTemplatesResponse](../../Models/Operations/PromptTemplatesResponse.md)**
 
 
 ## restorePromptTemplate
@@ -332,13 +332,13 @@ try {
 
 | Parameter                                                                                                                | Type                                                                                                                     | Required                                                                                                                 | Description                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                               | [\taamai\taamai\Models\Operations\RestorePromptTemplateRequest](../../models/operations/RestorePromptTemplateRequest.md) | :heavy_check_mark:                                                                                                       | The request object to use for the request.                                                                               |
+| `$request`                                                                                                               | [\taamai\taamai\Models\Operations\RestorePromptTemplateRequest](../../Models/Operations/RestorePromptTemplateRequest.md) | :heavy_check_mark:                                                                                                       | The request object to use for the request.                                                                               |
 | `$serverURL`                                                                                                             | *string*                                                                                                                 | :heavy_minus_sign:                                                                                                       | An optional server URL to use.                                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\RestorePromptTemplateResponse](../../models/operations/RestorePromptTemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\RestorePromptTemplateResponse](../../Models/Operations/RestorePromptTemplateResponse.md)**
 
 
 ## trashedPromptTemplates
@@ -382,13 +382,13 @@ try {
 
 | Parameter                                                                                                                  | Type                                                                                                                       | Required                                                                                                                   | Description                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\TrashedPromptTemplatesRequest](../../models/operations/TrashedPromptTemplatesRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
+| `$request`                                                                                                                 | [\taamai\taamai\Models\Operations\TrashedPromptTemplatesRequest](../../Models/Operations/TrashedPromptTemplatesRequest.md) | :heavy_check_mark:                                                                                                         | The request object to use for the request.                                                                                 |
 | `$serverURL`                                                                                                               | *string*                                                                                                                   | :heavy_minus_sign:                                                                                                         | An optional server URL to use.                                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\TrashedPromptTemplatesResponse](../../models/operations/TrashedPromptTemplatesResponse.md)**
+**[?\taamai\taamai\Models\Operations\TrashedPromptTemplatesResponse](../../Models/Operations/TrashedPromptTemplatesResponse.md)**
 
 
 ## deleteprmopttemplate
@@ -433,13 +433,13 @@ try {
 
 | Parameter                                                                                                              | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\DeleteprmopttemplateRequest](../../models/operations/DeleteprmopttemplateRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
+| `$request`                                                                                                             | [\taamai\taamai\Models\Operations\DeleteprmopttemplateRequest](../../Models/Operations/DeleteprmopttemplateRequest.md) | :heavy_check_mark:                                                                                                     | The request object to use for the request.                                                                             |
 | `$serverURL`                                                                                                           | *string*                                                                                                               | :heavy_minus_sign:                                                                                                     | An optional server URL to use.                                                                                         |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\DeleteprmopttemplateResponse](../../models/operations/DeleteprmopttemplateResponse.md)**
+**[?\taamai\taamai\Models\Operations\DeleteprmopttemplateResponse](../../Models/Operations/DeleteprmopttemplateResponse.md)**
 
 
 ## prompttemplatelikeorremovefromlike
@@ -484,11 +484,11 @@ try {
 
 | Parameter                                                                                                                                          | Type                                                                                                                                               | Required                                                                                                                                           | Description                                                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                                         | [\taamai\taamai\Models\Operations\PrompttemplatelikeorremovefromlikeRequest](../../models/operations/PrompttemplatelikeorremovefromlikeRequest.md) | :heavy_check_mark:                                                                                                                                 | The request object to use for the request.                                                                                                         |
+| `$request`                                                                                                                                         | [\taamai\taamai\Models\Operations\PrompttemplatelikeorremovefromlikeRequest](../../Models/Operations/PrompttemplatelikeorremovefromlikeRequest.md) | :heavy_check_mark:                                                                                                                                 | The request object to use for the request.                                                                                                         |
 | `$serverURL`                                                                                                                                       | *string*                                                                                                                                           | :heavy_minus_sign:                                                                                                                                 | An optional server URL to use.                                                                                                                     |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\PrompttemplatelikeorremovefromlikeResponse](../../models/operations/PrompttemplatelikeorremovefromlikeResponse.md)**
+**[?\taamai\taamai\Models\Operations\PrompttemplatelikeorremovefromlikeResponse](../../Models/Operations/PrompttemplatelikeorremovefromlikeResponse.md)**
 

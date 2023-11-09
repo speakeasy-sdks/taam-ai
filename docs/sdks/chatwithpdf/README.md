@@ -51,13 +51,13 @@ try {
 
 | Parameter                                                                                          | Type                                                                                               | Required                                                                                           | Description                                                                                        |
 | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                         | [\taamai\taamai\Models\Operations\NewRequestRequest](../../models/operations/NewRequestRequest.md) | :heavy_check_mark:                                                                                 | The request object to use for the request.                                                         |
+| `$request`                                                                                         | [\taamai\taamai\Models\Operations\NewRequestRequest](../../Models/Operations/NewRequestRequest.md) | :heavy_check_mark:                                                                                 | The request object to use for the request.                                                         |
 | `$serverURL`                                                                                       | *string*                                                                                           | :heavy_minus_sign:                                                                                 | An optional server URL to use.                                                                     |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\NewRequestResponse](../../models/operations/NewRequestResponse.md)**
+**[?\taamai\taamai\Models\Operations\NewRequestResponse](../../Models/Operations/NewRequestResponse.md)**
 
 
 ## sendandgetmsgtochatpdf
@@ -101,13 +101,13 @@ try {
 
 | Parameter                                                                                                                          | Type                                                                                                                               | Required                                                                                                                           | Description                                                                                                                        |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                                         | [\taamai\taamai\Models\Operations\SendandgetmsgtochatpdfRequestBody](../../models/operations/SendandgetmsgtochatpdfRequestBody.md) | :heavy_check_mark:                                                                                                                 | The request object to use for the request.                                                                                         |
+| `$request`                                                                                                                         | [\taamai\taamai\Models\Operations\SendandgetmsgtochatpdfRequestBody](../../Models/Operations/SendandgetmsgtochatpdfRequestBody.md) | :heavy_check_mark:                                                                                                                 | The request object to use for the request.                                                                                         |
 | `$serverURL`                                                                                                                       | *string*                                                                                                                           | :heavy_minus_sign:                                                                                                                 | An optional server URL to use.                                                                                                     |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\SendandgetmsgtochatpdfResponse](../../models/operations/SendandgetmsgtochatpdfResponse.md)**
+**[?\taamai\taamai\Models\Operations\SendandgetmsgtochatpdfResponse](../../Models/Operations/SendandgetmsgtochatpdfResponse.md)**
 
 
 ## fileupload
@@ -153,13 +153,13 @@ try {
 
 | Parameter                                                                                                  | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\FileuploadRequestBody](../../models/operations/FileuploadRequestBody.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
+| `$request`                                                                                                 | [\taamai\taamai\Models\Operations\FileuploadRequestBody](../../Models/Operations/FileuploadRequestBody.md) | :heavy_check_mark:                                                                                         | The request object to use for the request.                                                                 |
 | `$serverURL`                                                                                               | *string*                                                                                                   | :heavy_minus_sign:                                                                                         | An optional server URL to use.                                                                             |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\FileuploadResponse](../../models/operations/FileuploadResponse.md)**
+**[?\taamai\taamai\Models\Operations\FileuploadResponse](../../Models/Operations/FileuploadResponse.md)**
 
 
 ## pdftotext
@@ -205,13 +205,13 @@ try {
 
 | Parameter                                                                                                | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `$request`                                                                                               | [\taamai\taamai\Models\Operations\PdftotextRequestBody](../../models/operations/PdftotextRequestBody.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
+| `$request`                                                                                               | [\taamai\taamai\Models\Operations\PdftotextRequestBody](../../Models/Operations/PdftotextRequestBody.md) | :heavy_check_mark:                                                                                       | The request object to use for the request.                                                               |
 | `$serverURL`                                                                                             | *string*                                                                                                 | :heavy_minus_sign:                                                                                       | An optional server URL to use.                                                                           |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\PdftotextResponse](../../models/operations/PdftotextResponse.md)**
+**[?\taamai\taamai\Models\Operations\PdftotextResponse](../../Models/Operations/PdftotextResponse.md)**
 
 
 ## uploadfileforchatpdf
@@ -257,11 +257,11 @@ try {
 
 | Parameter                                                                                                                      | Type                                                                                                                           | Required                                                                                                                       | Description                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| `$request`                                                                                                                     | [\taamai\taamai\Models\Operations\UploadfileforchatpdfRequestBody](../../models/operations/UploadfileforchatpdfRequestBody.md) | :heavy_check_mark:                                                                                                             | The request object to use for the request.                                                                                     |
+| `$request`                                                                                                                     | [\taamai\taamai\Models\Operations\UploadfileforchatpdfRequestBody](../../Models/Operations/UploadfileforchatpdfRequestBody.md) | :heavy_check_mark:                                                                                                             | The request object to use for the request.                                                                                     |
 | `$serverURL`                                                                                                                   | *string*                                                                                                                       | :heavy_minus_sign:                                                                                                             | An optional server URL to use.                                                                                                 |
 
 
 ### Response
 
-**[?\taamai\taamai\Models\Operations\UploadfileforchatpdfResponse](../../models/operations/UploadfileforchatpdfResponse.md)**
+**[?\taamai\taamai\Models\Operations\UploadfileforchatpdfResponse](../../Models/Operations/UploadfileforchatpdfResponse.md)**
 
