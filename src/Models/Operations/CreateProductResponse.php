@@ -30,10 +30,10 @@ class CreateProductResponse
     /**
      * $headers
      * 
-     * @var ?array<string, array<string>> $headers
+     * @var array<string, array<string>> $headers
      */
 	
-    public ?array $headers = null;
+    public array $headers;
     
     /**
      * HTTP response status code for this operation
@@ -49,13 +49,13 @@ class CreateProductResponse
      * @var ?\Psr\Http\Message\ResponseInterface $rawResponse
      */
 	
-    public ?\Psr\Http\Message\ResponseInterface $rawResponse = null;
+    public ?\Psr\Http\Message\ResponseInterface $rawResponse;
     
 	public function __construct()
 	{
 		$this->contentType = "";
 		$this->createProduct = null;
-		$this->headers = null;
+		$this->headers = [];
 		$this->statusCode = 0;
 		$this->rawResponse = null;
 	}

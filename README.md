@@ -18,6 +18,8 @@ composer require "taamai/taamai"
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
+### Example
+
 ```php
 <?php
 

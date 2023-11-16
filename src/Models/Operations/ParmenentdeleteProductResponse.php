@@ -22,10 +22,10 @@ class ParmenentdeleteProductResponse
     /**
      * $headers
      * 
-     * @var ?array<string, array<string>> $headers
+     * @var array<string, array<string>> $headers
      */
 	
-    public ?array $headers = null;
+    public array $headers;
     
     /**
      * OK
@@ -49,12 +49,12 @@ class ParmenentdeleteProductResponse
      * @var ?\Psr\Http\Message\ResponseInterface $rawResponse
      */
 	
-    public ?\Psr\Http\Message\ResponseInterface $rawResponse = null;
+    public ?\Psr\Http\Message\ResponseInterface $rawResponse;
     
 	public function __construct()
 	{
 		$this->contentType = "";
-		$this->headers = null;
+		$this->headers = [];
 		$this->newRequest1 = null;
 		$this->statusCode = 0;
 		$this->rawResponse = null;
