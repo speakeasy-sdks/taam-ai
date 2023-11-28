@@ -6,7 +6,7 @@
     
 </div>
 
-<!-- Start SDK Installation -->
+<!-- Start SDK Installation [installation] -->
 ## SDK Installation
 
 ### Composer
@@ -14,10 +14,11 @@
 ```bash
 composer require "taamai/taamai"
 ```
-<!-- End SDK Installation -->
+<!-- End SDK Installation [installation] -->
 
+<!-- Start SDK Example Usage [usage] -->
 ## SDK Example Usage
-<!-- Start SDK Example Usage -->
+
 ### Example
 
 ```php
@@ -53,11 +54,10 @@ try {
 }
 
 ```
-<!-- End SDK Example Usage -->
+<!-- End SDK Example Usage [usage] -->
 
-<!-- Start SDK Available Operations -->
+<!-- Start Available Resources and Operations [operations] -->
 ## Available Resources and Operations
-
 
 ### [WorkbookAndFolders](docs/sdks/workbookandfolders/README.md)
 
@@ -154,11 +154,7 @@ try {
 * [processTemplate](docs/sdks/templates/README.md#processtemplate) - Process Template
 * [templateDetail](docs/sdks/templates/README.md#templatedetail) - Template Detail
 * [templategroups](docs/sdks/templates/README.md#templategroups) - Template groups
-<!-- End SDK Available Operations -->
-
-<!-- Start Dev Containers -->
-
-<!-- End Dev Containers -->
+<!-- End Available Resources and Operations [operations] -->
 
 <!-- Placeholder for Future Speakeasy SDK Sections -->
 

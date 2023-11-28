@@ -248,7 +248,6 @@ src/Models/Shared/Data15.php
 src/Models/Shared/Data16.php
 src/Models/Shared/Datum.php
 src/Models/Shared/Security.php
-USAGE.md
 docs/Models/Operations/AddandremovefromfavDocumentRequest.md
 docs/Models/Operations/AddandremovefromfavDocumentAddandremovefromfavDocument.md
 docs/Models/Operations/AddandremovefromfavDocumentResponse.md
@@ -479,4 +478,5 @@ docs/sdks/auth/README.md
 docs/sdks/product/README.md
 docs/sdks/prompttemplate/README.md
 docs/sdks/templates/README.md
+USAGE.md
 .gitattributes
