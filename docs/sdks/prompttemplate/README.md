@@ -30,16 +30,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\AddandremovefrombookmarkprompttemplateRequest();
+        $request = new Operations\AddandremovefrombookmarkprompttemplateRequest();
     $request->templateId = 1;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->addandremovefrombookmarkprompttemplate($request);
 
@@ -81,14 +79,12 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\CreatePromptTemplateRequest();
+        $request = new Operations\CreatePromptTemplateRequest();
     $request->activate = 1;
     $request->category = 'text';
     $request->code0 = 'input-field-1';
@@ -102,7 +98,7 @@ try {
     $request->prompt = 'Want to create vlog';
     $request->public = 1;
     $request->tone = 1;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->createPromptTemplate($request);
 
@@ -144,14 +140,12 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\GenerateprompttemplateRequest();
+        $request = new Operations\GenerateprompttemplateRequest();
     $request->creativity = 0.5;
     $request->description = 'something new';
     $request->folderId = 1;
@@ -162,7 +156,7 @@ try {
     $request->title = 'new';
     $request->userId = 1;
     $request->words = 10000;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->promptTemplate->generateprompttemplate($request);
 
@@ -204,16 +198,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\ParmanentDeletePrompttemplateRequest();
+        $request = new Operations\ParmanentDeletePrompttemplateRequest();
     $request->templateId = 3;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->parmanentDeletePrompttemplate($request);
 
@@ -255,17 +247,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\PromptTemplatesRequest();
+        $request = new Operations\PromptTemplatesRequest();
     $request->cat = 'publc';
     $request->subCat = 'all';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->promptTemplates($request);
 
@@ -307,16 +297,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RestorePromptTemplateRequest();
+        $request = new Operations\RestorePromptTemplateRequest();
     $request->templateId = 3;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->restorePromptTemplate($request);
 
@@ -358,15 +346,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\TrashedPromptTemplatesRequest();
-    $request->userId = 1;
+        $request = new Operations\TrashedPromptTemplatesRequest();
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->trashedPromptTemplates($request);
 
@@ -408,16 +394,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\DeleteprmopttemplateRequest();
+        $request = new Operations\DeleteprmopttemplateRequest();
     $request->templateId = 3;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->deleteprmopttemplate($request);
 
@@ -459,16 +443,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\PrompttemplatelikeorremovefromlikeRequest();
+        $request = new Operations\PrompttemplatelikeorremovefromlikeRequest();
     $request->templateId = 1;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->promptTemplate->prompttemplatelikeorremovefromlike($request);
 

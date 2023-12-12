@@ -10,7 +10,7 @@ use taamai\taamai\Models\Shared;
 use taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
 $sdk = taamai\Taamai::builder()
     ->setSecurity($security)

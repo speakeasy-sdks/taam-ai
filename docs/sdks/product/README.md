@@ -28,21 +28,19 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\CreateProductRequestBody();
+        $request = new Operations\CreateProductRequestBody();
     $request->bulletPoints = 'friend';
     $request->description = 'THis is testing';
     $request->name = 'New Product';
     $request->tags0 = 'hello';
     $request->tags1 = 'friend';
     $request->targetAudience = 'males';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->product->createProduct($request);
 
@@ -84,16 +82,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\DeleteProductRequest();
+        $request = new Operations\DeleteProductRequest();
     $request->productId = 10;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->product->deleteProduct($request);
 
@@ -135,16 +131,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RestoreProductRequest();
+        $request = new Operations\RestoreProductRequest();
     $request->productId = 10;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->product->restoreProduct($request);
 
@@ -186,15 +180,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\TrashedProductsRequest();
-    $request->userId = 1;
+        $request = new Operations\TrashedProductsRequest();
+    $request->userId = 1;;
 
     $response = $sdk->product->trashedProducts($request);
 
@@ -236,21 +228,19 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\UpdateProductRequest();
+        $request = new Operations\UpdateProductRequest();
     $request->bulletPoints = 11;
     $request->description = 'updated';
     $request->name = 'updated';
     $request->productId = 11;
     $request->tags0 = 'new';
     $request->targetAudience = 'females';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->product->updateProduct($request);
 
@@ -292,15 +282,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\UserProductdRequest();
-    $request->userId = 1;
+        $request = new Operations\UserProductdRequest();
+    $request->userId = 1;;
 
     $response = $sdk->product->userProductd($request);
 
@@ -342,16 +330,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\ParmenentdeleteProductRequest();
+        $request = new Operations\ParmenentdeleteProductRequest();
     $request->productId = 10;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->product->parmenentdeleteProduct($request);
 

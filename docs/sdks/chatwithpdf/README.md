@@ -26,16 +26,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\NewRequestRequest();
+        $request = new Operations\NewRequestRequest();
     $request->path = 'assets/pdf/64ef458eabc4e_Soban-Shahid (Laravel).pdf';
-    $request->question = 'what data this file contains';
+    $request->question = 'what data this file contains';;
 
     $response = $sdk->chatWithPdf->newRequest($request);
 
@@ -77,15 +75,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\SendandgetmsgtochatpdfRequestBody();
-    $request->question = 'what is the education';
+        $request = new Operations\SendandgetmsgtochatpdfRequestBody();
+    $request->question = 'what is the education';;
 
     $response = $sdk->chatWithPdf->sendandgetmsgtochatpdf($request);
 
@@ -127,17 +123,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\FileuploadRequestBody();
+        $request = new Operations\FileuploadRequestBody();
     $request->file = new Operations\File();
     $request->file->content = '0xA40D81A486';
-    $request->file->fileName = 'martin_coleslaw_application.gif';
+    $request->file->fileName = 'martin_coleslaw_application.gif';;
 
     $response = $sdk->chatWithPdf->fileupload($request);
 
@@ -179,17 +173,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\PdftotextRequestBody();
+        $request = new Operations\PdftotextRequestBody();
     $request->file = new Operations\PdftotextFile();
     $request->file->content = '0x0F1b5e786D';
-    $request->file->fileName = 'woman_secured.pdf';
+    $request->file->fileName = 'woman_secured.pdf';;
 
     $response = $sdk->chatWithPdf->pdftotext($request);
 
@@ -231,17 +223,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\UploadfileforchatpdfRequestBody();
+        $request = new Operations\UploadfileforchatpdfRequestBody();
     $request->file = new Operations\UploadfileforchatpdfFile();
     $request->file->content = '0x62cfbDe38b';
-    $request->file->fileName = 'radian.mp4v';
+    $request->file->fileName = 'radian.mp4v';;
 
     $response = $sdk->chatWithPdf->uploadfileforchatpdf($request);
 

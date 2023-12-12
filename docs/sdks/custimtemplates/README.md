@@ -27,11 +27,9 @@ use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
     $response = $sdk->custimTemplates->createCustomTemplate();
@@ -67,14 +65,12 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\CustomTemplategenerateRequest();
+        $request = new Operations\CustomTemplategenerateRequest();
     $request->creativity = 0.5;
     $request->description = 'code';
     $request->folderId = 1;
@@ -86,7 +82,7 @@ try {
     $request->title = 'code';
     $request->userId = 40;
     $request->words = 100;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->custimTemplates->customTemplategenerate($request);
 
@@ -128,15 +124,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\CustomTemplatesRequest();
-    $request->userId = 40;
+        $request = new Operations\CustomTemplatesRequest();
+    $request->userId = 40;;
 
     $response = $sdk->custimTemplates->customTemplates($request);
 
@@ -178,16 +172,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\DeleteCustomtemplateRequest();
+        $request = new Operations\DeleteCustomtemplateRequest();
     $request->templateId = 3;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->custimTemplates->deleteCustomtemplate($request);
 
@@ -229,15 +221,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\FavCustomTemplatesRequest();
-    $request->userId = 40;
+        $request = new Operations\FavCustomTemplatesRequest();
+    $request->userId = 40;;
 
     $response = $sdk->custimTemplates->favCustomTemplates($request);
 
@@ -279,16 +269,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RestoreCustomtemplateRequest();
+        $request = new Operations\RestoreCustomtemplateRequest();
     $request->templateId = 3;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->custimTemplates->restoreCustomtemplate($request);
 
@@ -330,15 +318,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\TrashedCustomTemplatesRequest();
-    $request->userId = 1;
+        $request = new Operations\TrashedCustomTemplatesRequest();
+    $request->userId = 1;;
 
     $response = $sdk->custimTemplates->trashedCustomTemplates($request);
 

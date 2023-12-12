@@ -23,19 +23,17 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RegisterRequest();
+        $request = new Operations\RegisterRequest();
     $request->country = 'pakistan';
     $request->email = 'sobanshahid47@gmail.com';
     $request->name = 'soban';
     $request->password = 'ali112233';
-    $request->subdomain = 'friend';
+    $request->subdomain = 'friend';;
 
     $response = $sdk->auth->register($request);
 
@@ -77,16 +75,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\LoginRequestBody();
+        $request = new Operations\LoginRequestBody();
     $request->email = 'sobanshahid47@gmail.com';
-    $request->password = 'ali112233';
+    $request->password = 'ali112233';;
 
     $response = $sdk->auth->login($request);
 

@@ -48,17 +48,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\AddandremovefromfavDocumentRequest();
+        $request = new Operations\AddandremovefromfavDocumentRequest();
     $request->id = 6;
     $request->type = 'document';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->addandremovefromfavDocument($request);
 
@@ -100,17 +98,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\ContentsinworkbookRequest();
+        $request = new Operations\ContentsinworkbookRequest();
     $request->type = 'general';
     $request->userId = 1;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->workbookAndFolders->contentsinworkbook($request);
 
@@ -152,17 +148,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\CreateFolderRequest();
+        $request = new Operations\CreateFolderRequest();
     $request->folderName = 'default new';
     $request->userId = 1;
-    $request->workbookId = 23;
+    $request->workbookId = 23;;
 
     $response = $sdk->workbookAndFolders->createFolder($request);
 
@@ -204,16 +198,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\CreateWorkbookRequest();
+        $request = new Operations\CreateWorkbookRequest();
     $request->userId = 1;
-    $request->workbookName = 'soban2';
+    $request->workbookName = 'soban2';;
 
     $response = $sdk->workbookAndFolders->createWorkbook($request);
 
@@ -255,16 +247,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\DeleteWorkspaceRequest();
+        $request = new Operations\DeleteWorkspaceRequest();
     $request->userId = 1;
-    $request->workbookId = 39;
+    $request->workbookId = 39;;
 
     $response = $sdk->workbookAndFolders->deleteWorkspace($request);
 
@@ -305,11 +295,9 @@ use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
     $response = $sdk->workbookAndFolders->deleteallkindofdocuments();
@@ -351,16 +339,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\JoinworkbookRequest();
+        $request = new Operations\JoinworkbookRequest();
     $request->userId = 12;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->workbookAndFolders->joinworkbook($request);
 
@@ -402,17 +388,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\JoinworkbookrequestrRequest();
+        $request = new Operations\JoinworkbookrequestrRequest();
     $request->email = 'sobanshahid38@gmail.com';
     $request->userId = 1;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->workbookAndFolders->joinworkbookrequestr($request);
 
@@ -454,16 +438,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\PermanentDeletefolderRequest();
+        $request = new Operations\PermanentDeletefolderRequest();
     $request->folderId = 27;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->permanentDeletefolder($request);
 
@@ -504,11 +486,9 @@ use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
     $response = $sdk->workbookAndFolders->permanentDeleteworkspace();
@@ -544,16 +524,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RejectWorkbookRequest();
+        $request = new Operations\RejectWorkbookRequest();
     $request->userId = 12;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->workbookAndFolders->rejectWorkbook($request);
 
@@ -595,17 +573,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeRequest();
+        $request = new Operations\RestoreDocuemntofalltypeContentVoiceoverImagesTranscriptCodeRequest();
     $request->id = 1;
     $request->type = 'document';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->restoreDocuemntofalltypeContentVoiceoverImagesTranscriptCode($request);
 
@@ -647,16 +623,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RestoreWorkspaceRequest();
+        $request = new Operations\RestoreWorkspaceRequest();
     $request->userId = 40;
-    $request->workbookId = 39;
+    $request->workbookId = 39;;
 
     $response = $sdk->workbookAndFolders->restoreWorkspace($request);
 
@@ -698,16 +672,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\SetdefualtworkspaceRequest();
+        $request = new Operations\SetdefualtworkspaceRequest();
     $request->userId = 1;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->workbookAndFolders->setdefualtworkspace($request);
 
@@ -749,16 +721,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\TrashedfoldersRequest();
+        $request = new Operations\TrashedfoldersRequest();
     $request->userId = 1;
-    $request->workbookId = 22;
+    $request->workbookId = 22;;
 
     $response = $sdk->workbookAndFolders->trashedfolders($request);
 
@@ -800,15 +770,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\TrashedworkspacesRequest();
-    $request->userId = 1;
+        $request = new Operations\TrashedworkspacesRequest();
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->trashedworkspaces($request);
 
@@ -850,16 +818,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\WorkbookDetailRequest();
+        $request = new Operations\WorkbookDetailRequest();
     $request->userId = 1;
-    $request->workbookId = 12;
+    $request->workbookId = 12;;
 
     $response = $sdk->workbookAndFolders->workbookDetail($request);
 
@@ -901,18 +867,16 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\WorkbookvoiceoversRequest();
+        $request = new Operations\WorkbookvoiceoversRequest();
     $request->folderId = 1;
     $request->type = 'general';
     $request->userId = 1;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->workbookAndFolders->workbookvoiceovers($request);
 
@@ -954,15 +918,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\AllworkbooksRequest();
-    $request->userId = 1;
+        $request = new Operations\AllworkbooksRequest();
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->allworkbooks($request);
 
@@ -1004,16 +966,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\DeletefolderRequest();
+        $request = new Operations\DeletefolderRequest();
     $request->folderId = 27;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->deletefolder($request);
 
@@ -1055,17 +1015,15 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\PermanentDeletedocumentRequest();
+        $request = new Operations\PermanentDeletedocumentRequest();
     $request->id = 4;
     $request->type = 'document';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->permanentDeletedocument($request);
 
@@ -1107,16 +1065,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\RestorefolderRequest();
+        $request = new Operations\RestorefolderRequest();
     $request->folderId = 27;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->restorefolder($request);
 
@@ -1158,16 +1114,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\UserchatsRequest();
+        $request = new Operations\UserchatsRequest();
     $request->type = 'general';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->userchats($request);
 
@@ -1209,18 +1163,16 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\WorkbookcodesRequest();
+        $request = new Operations\WorkbookcodesRequest();
     $request->folderId = 1;
     $request->type = 'general';
     $request->userId = 1;
-    $request->workbookId = 'all';
+    $request->workbookId = 'all';;
 
     $response = $sdk->workbookAndFolders->workbookcodes($request);
 
@@ -1262,18 +1214,16 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\WorkbookimagesRequest();
+        $request = new Operations\WorkbookimagesRequest();
     $request->folderId = 1;
     $request->type = 'general';
     $request->userId = 1;
-    $request->workbookId = 'all';
+    $request->workbookId = 'all';;
 
     $response = $sdk->workbookAndFolders->workbookimages($request);
 
@@ -1315,16 +1265,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\WorkbookpoliciesRequest();
+        $request = new Operations\WorkbookpoliciesRequest();
     $request->type = 'general';
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->workbookAndFolders->workbookpolicies($request);
 
@@ -1366,18 +1314,16 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\WorkbooktranscriptsRequest();
+        $request = new Operations\WorkbooktranscriptsRequest();
     $request->folderId = 1;
     $request->type = 'general';
     $request->userId = 1;
-    $request->workbookId = 'all';
+    $request->workbookId = 'all';;
 
     $response = $sdk->workbookAndFolders->workbooktranscripts($request);
 

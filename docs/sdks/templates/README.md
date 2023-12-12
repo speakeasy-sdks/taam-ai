@@ -27,15 +27,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\AllTemplatesRequest();
-    $request->userId = 1;
+        $request = new Operations\AllTemplatesRequest();
+    $request->userId = 1;;
 
     $response = $sdk->templates->allTemplates($request);
 
@@ -77,15 +75,13 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\FavTemplatesRequest();
-    $request->userId = 12;
+        $request = new Operations\FavTemplatesRequest();
+    $request->userId = 12;;
 
     $response = $sdk->templates->favTemplates($request);
 
@@ -127,14 +123,12 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\GenerateTemplateRequest();
+        $request = new Operations\GenerateTemplateRequest();
     $request->creativity = 0.5;
     $request->description = 'tell me about code';
     $request->folderId = 1;
@@ -144,7 +138,7 @@ try {
     $request->title = 'Tsmokeshope';
     $request->userId = 40;
     $request->words = 100;
-    $request->workbookId = 1;
+    $request->workbookId = 1;;
 
     $response = $sdk->templates->generateTemplate($request);
 
@@ -186,19 +180,17 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\ProcessTemplateRequest();
+        $request = new Operations\ProcessTemplateRequest();
     $request->contentId = 286;
     $request->maxResults = 1;
     $request->maxWords = 100;
     $request->temperature = 0.5;
-    $request->userId = 1;
+    $request->userId = 1;;
 
     $response = $sdk->templates->processTemplate($request);
 
@@ -240,16 +232,14 @@ use \taamai\taamai\Models\Shared;
 use \taamai\taamai\Models\Operations;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
-    $request = new Operations\TemplateDetailRequest();
+        $request = new Operations\TemplateDetailRequest();
     $request->templateId = 1;
-    $request->userId = 40;
+    $request->userId = 40;;
 
     $response = $sdk->templates->templateDetail($request);
 
@@ -290,11 +280,9 @@ use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
 
 $security = new Shared\Security();
-$security->bearer = '';
+$security->bearer = '<YOUR_BEARER_TOKEN_HERE>';
 
-$sdk = taamai\Taamai::builder()
-    ->setSecurity($security)
-    ->build();
+$sdk = taamai\Taamai::builder()->setSecurity($security)->build();
 
 try {
     $response = $sdk->templates->templategroups();
