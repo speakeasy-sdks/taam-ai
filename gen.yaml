@@ -1,21 +1,10 @@
-configVersion: 1.0.0
-management:
-  docChecksum: e68b021f45280da7f9b8c19469821a11
-  docVersion: "1.0"
-  speakeasyVersion: 1.126.0
-  generationVersion: 2.213.3
+configVersion: 2.0.0
 generation:
-  comments: {}
   sdkClassName: taamai
-  repoURL: https://github.com/speakeasy-sdks/taam-ai.git
   usageSnippets:
     optionalPropertyRendering: withExample
-features:
-  php:
-    core: 3.2.0
-    globalSecurity: 2.81.2
-    globalServerURLs: 2.82.1
-    methodServerURLs: 2.82.1
+  fixes:
+    nameResolutionDec2023: false
 php:
   version: 0.4.0
   imports:
@@ -27,10 +16,7 @@ php:
       shared: Models/Shared
       webhooks: Models/Webhooks
   inputModelSuffix: input
-  installationURL: https://github.com/speakeasy-sdks/taam-ai
   maxMethodParams: 0
   namespace: taamai\taamai
   outputModelSuffix: output
   packageName: taamai/taamai
-  published: true
-  repoSubDirectory: .
