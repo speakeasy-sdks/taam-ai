@@ -63,7 +63,7 @@ try {
     if ($response->addandremovefromfavDocument !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -113,7 +113,7 @@ try {
     if ($response->contentsinworkbook !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -163,7 +163,7 @@ try {
     if ($response->createFolderlive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -212,7 +212,7 @@ try {
     if ($response->createWorkbooklivw !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -261,7 +261,7 @@ try {
     if ($response->deleteWorkspacelive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -305,7 +305,7 @@ try {
     if ($response->deleteallkindofdocuments !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -353,7 +353,7 @@ try {
     if ($response->joinworkbook !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -403,7 +403,7 @@ try {
     if ($response->joinworkbookrequestr !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -452,7 +452,7 @@ try {
     if ($response->statusCode === 200) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -496,7 +496,7 @@ try {
     if ($response->permanentDeleteworkspacelive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -538,7 +538,7 @@ try {
     if ($response->rejectWorkbook !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -588,7 +588,7 @@ try {
     if ($response->restoreDocuemntofalltypecontentVoiceoverimagestranscriptcode !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -637,7 +637,7 @@ try {
     if ($response->restoreWorkspacelive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -686,7 +686,7 @@ try {
     if ($response->statusCode === 200) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -735,7 +735,7 @@ try {
     if ($response->trashedfolderslive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -783,7 +783,7 @@ try {
     if ($response->trashedworkspaceslive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -832,7 +832,7 @@ try {
     if ($response->workbookDetaillive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -883,7 +883,7 @@ try {
     if ($response->workbookvoiceovers !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -931,7 +931,7 @@ try {
     if ($response->allworkbookslive !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -980,7 +980,7 @@ try {
     if ($response->deletefolder !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -1030,7 +1030,7 @@ try {
     if ($response->permanentDeletedocument !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -1079,7 +1079,7 @@ try {
     if ($response->statusCode === 200) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -1128,7 +1128,7 @@ try {
     if ($response->userchats !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -1179,7 +1179,7 @@ try {
     if ($response->newRequest !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -1230,7 +1230,7 @@ try {
     if ($response->workbookimages !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -1279,7 +1279,7 @@ try {
     if ($response->workbookpolicies !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -1330,7 +1330,7 @@ try {
     if ($response->workbooktranscripts !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```

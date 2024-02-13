@@ -27,7 +27,7 @@ try {
     if ($response->addandremovefromfavDocument !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 

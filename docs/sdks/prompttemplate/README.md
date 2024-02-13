@@ -44,7 +44,7 @@ try {
     if ($response->newRequest1 !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -105,7 +105,7 @@ try {
     if ($response->createPromptTemplate !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -163,7 +163,7 @@ try {
     if ($response->generateprompttemplate !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -212,7 +212,7 @@ try {
     if ($response->parmanentDeletePrompttemplate !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -262,7 +262,7 @@ try {
     if ($response->promptTemplates !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -311,7 +311,7 @@ try {
     if ($response->restorePromptTemplate !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -359,7 +359,7 @@ try {
     if ($response->trashedPromptTemplates !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -408,7 +408,7 @@ try {
     if ($response->deleteprmopttemplate !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -457,7 +457,7 @@ try {
     if ($response->prompttemplatelikeorremovefromlike !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```

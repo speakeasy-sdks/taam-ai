@@ -47,7 +47,7 @@ try {
     if ($response->createProduct !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -96,7 +96,7 @@ try {
     if ($response->deleteProduct !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -145,7 +145,7 @@ try {
     if ($response->restoreProduct !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -193,7 +193,7 @@ try {
     if ($response->trashedProducts !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -247,7 +247,7 @@ try {
     if ($response->updateProduct !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -295,7 +295,7 @@ try {
     if ($response->userProductd !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -344,7 +344,7 @@ try {
     if ($response->newRequest1 !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```

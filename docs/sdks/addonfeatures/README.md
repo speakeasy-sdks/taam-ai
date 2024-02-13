@@ -42,7 +42,7 @@ try {
     if ($response->generateCode !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -96,7 +96,7 @@ try {
     if ($response->generateimagefromAI !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -152,7 +152,7 @@ try {
     if ($response->generatespeechtotext !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -203,7 +203,7 @@ try {
     if ($response->savecodeinworkspace !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
@@ -257,7 +257,7 @@ try {
     if ($response->savetranscript !== null) {
         // handle response
     }
-} catch (Exception $e) {
+} catch (Throwable $e) {
     // handle exception
 }
 ```
