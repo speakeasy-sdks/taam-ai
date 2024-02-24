@@ -21,7 +21,8 @@ Create Product
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -75,7 +76,8 @@ Delete Product
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -124,7 +126,8 @@ Restore Product
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -173,7 +176,8 @@ Trashed Products
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -221,7 +225,8 @@ Update Product
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -275,7 +280,8 @@ User Productd
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -323,7 +329,8 @@ parmenent delete Product
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;

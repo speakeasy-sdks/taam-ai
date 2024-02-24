@@ -41,7 +41,8 @@ Add and remove from fav Document
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -91,7 +92,8 @@ Contents in work book
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -141,7 +143,8 @@ Create Folder
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -191,7 +194,8 @@ Create Workbook
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -240,7 +244,8 @@ Delete Workspace
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -289,7 +294,8 @@ Delete all kind of documents
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -332,7 +338,8 @@ Join workbook
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -381,7 +388,8 @@ Join workbook requestr
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -431,7 +439,8 @@ Permanent Delete folder
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -480,7 +489,8 @@ Permanent Delete workspace
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -517,7 +527,8 @@ Reject Workbook
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -566,7 +577,8 @@ Restore Docuemnt of all type  (content.voiceover,images,transcript,code)
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -616,7 +628,8 @@ Restore Workspace
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -665,7 +678,8 @@ Set defualt workspace
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -714,7 +728,8 @@ Trashed folders
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -763,7 +778,8 @@ Trashed workspaces
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -811,7 +827,8 @@ Workbook Detail
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -860,7 +877,8 @@ Workbook voiceovers
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -911,7 +929,8 @@ all workbooks
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -959,7 +978,8 @@ delete folder
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -1008,7 +1028,8 @@ permanent Delete document
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -1058,7 +1079,8 @@ restore folder
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -1107,7 +1129,8 @@ user chats
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -1156,7 +1179,8 @@ workbook codes
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -1207,7 +1231,8 @@ workbook images
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -1258,7 +1283,8 @@ workbook policies
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -1307,7 +1333,8 @@ workbook transcripts
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;

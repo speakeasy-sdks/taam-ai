@@ -19,7 +19,8 @@ New Request
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -68,7 +69,8 @@ Send and get msg to chat pdf
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -116,7 +118,8 @@ file upload
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -166,7 +169,8 @@ pdf to text
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -216,7 +220,8 @@ upload file for chat pdf
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;

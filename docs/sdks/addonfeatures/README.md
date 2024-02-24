@@ -19,7 +19,8 @@ Generate Code
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -70,7 +71,8 @@ Generate image from AI
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -124,7 +126,8 @@ Generate speech to text
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -180,7 +183,8 @@ Save code in workspace
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -231,7 +235,8 @@ Save transcript
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;

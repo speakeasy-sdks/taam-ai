@@ -21,7 +21,8 @@ Create Custom Template
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -58,7 +59,8 @@ Custom Template generate
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -117,7 +119,8 @@ Custom Templates
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -165,7 +168,8 @@ Delete Custom template
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -214,7 +218,8 @@ Fav Custom Templates
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -262,7 +267,8 @@ Restore Custom template
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;
@@ -311,7 +317,8 @@ Trashed Custom Templates
 <?php
 
 declare(strict_types=1);
-require_once 'vendor/autoload.php';
+
+require 'vendor/autoload.php';
 
 use \taamai\taamai;
 use \taamai\taamai\Models\Shared;

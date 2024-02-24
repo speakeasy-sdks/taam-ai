@@ -38,8 +38,7 @@ class Taamai
 	public PromptTemplate $promptTemplate;
 	
 	public Templates $templates;
-		
-	private SDKConfiguration $sdkConfiguration;
+	
 
 	/**
 	 * Returns a new instance of the SDK builder used to configure and create the SDK instance.
@@ -54,9 +53,9 @@ class Taamai
 	/**
 	 * @param SDKConfiguration $sdkConfiguration
 	 */
-	public function __construct(SDKConfiguration $sdkConfiguration)
-	{
-		$this->sdkConfiguration = $sdkConfiguration;
+	public function __construct(
+		private SDKConfiguration $sdkConfiguration,
+	) {
 		
 		$this->workbookAndFolders = new WorkbookAndFolders($this->sdkConfiguration);
 		
